@@ -1,0 +1,441 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.45f1 (0da89fac8e79) revision 895135'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 32306 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.45f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53876
+Successfully changed project path to: C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
+C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24292] Host "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 2315221153 [EditorId] 2315221153 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24292] Host "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 2315221153 [EditorId] 2315221153 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 53.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.45f1 (0da89fac8e79)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Arc(TM) Graphics (ID=0x7d55)
+    Vendor:   Intel
+    VRAM:     18414 MB
+    Driver:   32.0.101.6129
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003338 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.543 seconds
+Domain Reload Profiling:
+	ReloadAssembly (543ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (383ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (93ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003165 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.368 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1369ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1162ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (693ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (610ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3081 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (46.8 KB). Loaded Objects now: 3545.
+Memory consumption went from 108.7 MB to 108.6 MB.
+Total: 3.127800 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.054300 ms MarkObjects: 2.762300 ms  DeleteObjects: 0.092500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8702.504290 seconds.
+  path: Assets/Level2/MountainTrack2/Scenes_Day/Autumn_4_daySettings.lighting
+  artifactKey: Guid(3a5f5029f0e165149aae7f048193ce2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Scenes_Day/Autumn_4_daySettings.lighting using Guid(3a5f5029f0e165149aae7f048193ce2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '839244d28184ecadd83836f9a290f5ba') in 0.053607 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.692572 seconds.
+  path: Assets/Level2/MountainTrack2/Scenes_Day/Autumn_5_day.unity
+  artifactKey: Guid(c94263523ea4c414c97cb734aab968e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Scenes_Day/Autumn_5_day.unity using Guid(c94263523ea4c414c97cb734aab968e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954e6e2d5e226caf5f25ecef5f74741e') in 0.020933 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.574163 seconds.
+  path: Assets/Level2/MountainTrack2/Scenes_Day/Autumn_6_day.unity
+  artifactKey: Guid(bb52851deeada450caa2f87775645061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Scenes_Day/Autumn_6_day.unity using Guid(bb52851deeada450caa2f87775645061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4892a86011f0c97dd31414e5ee71d11') in 0.020172 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.659831 seconds.
+  path: Assets/Level2/MountainTrack2/Scenes_Day/Summer_4_day.unity
+  artifactKey: Guid(7b763f721c2e24e6588088b26ee1cd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Scenes_Day/Summer_4_day.unity using Guid(7b763f721c2e24e6588088b26ee1cd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22cfdc64ac0bae2a02f6b9ba45d2dfd') in 0.021141 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.858730 seconds.
+  path: Assets/Level2/MountainTrack2/Scenes_Day/Summer_6_day.unity
+  artifactKey: Guid(64f411efdaea040e7b6f7be13861ff99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Scenes_Day/Summer_6_day.unity using Guid(64f411efdaea040e7b6f7be13861ff99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5651dcfbf16394d0abead2f064c88aa0') in 0.019360 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.681922 seconds.
+  path: Assets/Level2/MountainTrack2/Scenes_Day/Winter_4_day.unity
+  artifactKey: Guid(b80cdcefcb8f545f9bfd698639a83061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Scenes_Day/Winter_4_day.unity using Guid(b80cdcefcb8f545f9bfd698639a83061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43b991b69be0450d24110c21e143016') in 0.019610 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.414343 seconds.
+  path: Assets/Level2/MountainTrack2/Scenes_Day/Winter_5_day.unity
+  artifactKey: Guid(51bfdac7ff1f24347803899ccb1e421a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Scenes_Day/Winter_5_day.unity using Guid(51bfdac7ff1f24347803899ccb1e421a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb4b5ea8bc8be0034ab817aef0fae25') in 0.019803 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.497145 seconds.
+  path: Assets/Level2/MountainTrack2/Scenes_Day/Winter_6_day.unity
+  artifactKey: Guid(3edfa320957e64662a1e5b57999122d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Scenes_Day/Winter_6_day.unity using Guid(3edfa320957e64662a1e5b57999122d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13d9ddf31919f550df03b76a3892638') in 0.020608 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 69.584979 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials
+  artifactKey: Guid(bb34d4d11e1668744bb50439eae2c9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials using Guid(bb34d4d11e1668744bb50439eae2c9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc72113c2e5575a0136c8b623921adfd') in 0.023098 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.051015 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Block_summer.mat
+  artifactKey: Guid(a82de733ad8d1ec43abe36a0a1aa58f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Block_summer.mat using Guid(a82de733ad8d1ec43abe36a0a1aa58f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9875847d8dba27bc8accaa62062f089b') in 0.177688 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Tree_03_winter.mat
+  artifactKey: Guid(eac3f34970e595749a4768a7ae018e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Tree_03_winter.mat using Guid(eac3f34970e595749a4768a7ae018e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b028f8d34594824f15cc631fc10e09c0') in 0.025473 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Tree_04_winter.mat
+  artifactKey: Guid(8f361141090e7734d8bee0ee69516051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Tree_04_winter.mat using Guid(8f361141090e7734d8bee0ee69516051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801ffe5b5575a9603017baf60737ac21') in 0.024170 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Ground_winter.mat
+  artifactKey: Guid(45b62ad556f35a34880519c4c57e5f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Ground_winter.mat using Guid(45b62ad556f35a34880519c4c57e5f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c02e876c97c42362748c6478a814ec') in 0.097099 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/TunnelLamps.mat
+  artifactKey: Guid(8d3566c713fbc0949bb6b645c275fd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/TunnelLamps.mat using Guid(8d3566c713fbc0949bb6b645c275fd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eee26e1f7f70f78d559dec79e74d0a4') in 0.026623 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Sky_night.mat
+  artifactKey: Guid(da040f20d34754436bfadc324bdfe263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Sky_night.mat using Guid(da040f20d34754436bfadc324bdfe263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f72c55693cfb134f34b5c517d797af1') in 0.026053 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Road_winter.mat
+  artifactKey: Guid(c2452e9e209451645a87e68af1474750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Road_winter.mat using Guid(c2452e9e209451645a87e68af1474750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1294bef09f371e908f562f73496d91ba') in 0.028786 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/RoadLight_emit.mat
+  artifactKey: Guid(80e5b48c483c3ef42bed20dfc738c730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/RoadLight_emit.mat using Guid(80e5b48c483c3ef42bed20dfc738c730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72a00288579bda636b210416374bd94') in 0.086860 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Tree_02_winter.mat
+  artifactKey: Guid(c775624310cc54844b197a4e78ebc2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Tree_02_winter.mat using Guid(c775624310cc54844b197a4e78ebc2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1102891dd7d88c6f6be57036bb9fcee8') in 0.025560 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Road_summer.mat
+  artifactKey: Guid(1069443f72e603d4eadace001d45579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Road_summer.mat using Guid(1069443f72e603d4eadace001d45579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353b4ab538b7390b17473617e7637d9b') in 0.031317 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Road_autumn.mat
+  artifactKey: Guid(4ced4d86fe485ae4393064f8aad0951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Road_autumn.mat using Guid(4ced4d86fe485ae4393064f8aad0951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663b8eba08e384b4da50b042e925a4ce') in 0.028846 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/RepentanceSign.mat
+  artifactKey: Guid(1bcabe1ee2df8cc439084d9d26524400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/RepentanceSign.mat using Guid(1bcabe1ee2df8cc439084d9d26524400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb9d1ea01ce212243e9c7231ae89011') in 0.102849 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 4.566686 seconds.
+  path: Assets/Level2/MountainTrack2/Scenes_Night
+  artifactKey: Guid(462118ddea0ae4990bdc151be6d99d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Scenes_Night using Guid(462118ddea0ae4990bdc151be6d99d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b6a4109c0743d7b156cce645ce6636') in 0.020296 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.999904 seconds.
+  path: Assets/Level2/Prefabs
+  artifactKey: Guid(6261ea39a13cb3d4193f290cbca583a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Prefabs using Guid(6261ea39a13cb3d4193f290cbca583a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a085c04b093778fd26d97ae2d7d4135') in 0.020397 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 77.037075 seconds.
+  path: Assets/Level2/MountainTrack2/Models/FBX/Materials
+  artifactKey: Guid(48f827b6999864371923e9b02987fe7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/FBX/Materials using Guid(48f827b6999864371923e9b02987fe7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c92747fa198ff30182d5c481da1d46c') in 0.004286 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.080655 seconds.
+  path: Assets/Level2/MountainTrack2/Models/FBX/Materials/RoadLight_beam.mat
+  artifactKey: Guid(1d5e5ebc086b1435fa1974e37dee921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/FBX/Materials/RoadLight_beam.mat using Guid(1d5e5ebc086b1435fa1974e37dee921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa41ee3c223a325614f6bca185000509') in 0.024486 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.720306 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Prefabs
+  artifactKey: Guid(ce73447dd725360458eb3f8acdcab693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Prefabs using Guid(ce73447dd725360458eb3f8acdcab693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d61727c3edf275b40a056ae35a17a1') in 0.004832 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.028660 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Prefabs/Tracks
+  artifactKey: Guid(535de4691f0d94bd5aeeae66eabaa7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Prefabs/Tracks using Guid(535de4691f0d94bd5aeeae66eabaa7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c2a48236dd1a3ba8ac037b7a1cce18') in 0.020347 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.039520 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Prefabs/Tracks/Track04_autumn.prefab
+  artifactKey: Guid(326a840eb29978f4f9137e3a7da30669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Prefabs/Tracks/Track04_autumn.prefab using Guid(326a840eb29978f4f9137e3a7da30669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7071bf30c499e1fb819cf6a7dcd388') in 0.110398 seconds 
+Number of asset objects unloaded after import = 452
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Prefabs/Tracks/Track06_winter.prefab
+  artifactKey: Guid(cf2e748076b247848b4743ddf09322c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Prefabs/Tracks/Track06_winter.prefab using Guid(cf2e748076b247848b4743ddf09322c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15bc7b7666942bd807e64fb601f53547') in 0.073353 seconds 
+Number of asset objects unloaded after import = 1273
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Prefabs/Tracks/Track06_summer.prefab
+  artifactKey: Guid(9e5db52eb363da8409c7923a2a381a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Prefabs/Tracks/Track06_summer.prefab using Guid(9e5db52eb363da8409c7923a2a381a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4dca752e549550ac24279bbb18a9eb') in 0.054105 seconds 
+Number of asset objects unloaded after import = 523
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Prefabs/Tracks/Track06_autumn.prefab
+  artifactKey: Guid(12797ab9eec65824d927ed9167c41863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Prefabs/Tracks/Track06_autumn.prefab using Guid(12797ab9eec65824d927ed9167c41863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1094986c4132a46bc0442756c4771c') in 0.062031 seconds 
+Number of asset objects unloaded after import = 523
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Prefabs/Tracks/Track05_autumn.prefab
+  artifactKey: Guid(434dcc50d06f79240a78b951abbd79a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Prefabs/Tracks/Track05_autumn.prefab using Guid(434dcc50d06f79240a78b951abbd79a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ad0b17a1f1a7dcfe4a42a889b75c65') in 0.124770 seconds 
+Number of asset objects unloaded after import = 544
+========================================================================
+Received Import Request.
+  Time since last request: 3.450998 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Prefabs/Props/Left_sing.prefab
+  artifactKey: Guid(975bf88ea4ad84376aea7dca3c896408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Prefabs/Props/Left_sing.prefab using Guid(975bf88ea4ad84376aea7dca3c896408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe54797eacb38408645c14b659b6063') in 0.029916 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Prefabs/Props/Stop_sign.prefab
+  artifactKey: Guid(abc6e3fab2bb7416a9d2ab7174df0e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Prefabs/Props/Stop_sign.prefab using Guid(abc6e3fab2bb7416a9d2ab7174df0e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966208d5adbe79754492ace253d82c42') in 0.030659 seconds 
+Number of asset objects unloaded after import = 11
