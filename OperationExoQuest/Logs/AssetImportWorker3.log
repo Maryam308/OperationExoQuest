@@ -15,7 +15,7 @@ C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-56498
+50011
 Successfully changed project path to: C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
 C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [49936] Host "[IP] 192.168.100.110 [Port] 0 [Flags] 2 [Guid] 2895299724 [EditorId] 2895299724 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24180] Host "[IP] 192.168.100.110 [Port] 0 [Flags] 2 [Guid] 2049151927 [EditorId] 2049151927 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [49936] Host "[IP] 192.168.100.110 [Port] 0 [Flags] 2 [Guid] 2895299724 [EditorId] 2895299724 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24180] Host "[IP] 192.168.100.110 [Port] 0 [Flags] 2 [Guid] 2049151927 [EditorId] 2049151927 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 61.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 45.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.45f1 (0da89fac8e79)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Resources/UnitySubsystems
@@ -68,90 +68,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003471 seconds.
+Registered in 0.003207 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 38.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.502 seconds
+- Completed reload, in  0.477 seconds
 Domain Reload Profiling:
-	ReloadAssembly (503ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (478ms)
+		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (333ms)
-			LoadAssemblies (95ms)
+		EndReloadAssembly (314ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (83ms)
+			SetupTypeCache (72ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (195ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (192ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
+				RefreshPlugins (39ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (110ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003785 seconds.
+Registered in 0.006575 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.232 seconds
+- Completed reload, in  1.166 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1233ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (1167ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (1053ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (987ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (235ms)
-			ReleaseScriptCaches (0ms)
+			SetupTypeCache (188ms)
+			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (682ms)
+			SetupLoadedEditorAssemblies (671ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (610ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (596ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (46.6 KB). Loaded Objects now: 3552.
-Memory consumption went from 109.5 MB to 109.4 MB.
-Total: 2.790800 ms (FindLiveObjects: 0.201000 ms CreateObjectMapping: 0.061300 ms MarkObjects: 2.452000 ms  DeleteObjects: 0.075100 ms)
+Unloading 3458 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (101.4 KB). Loaded Objects now: 3929.
+Memory consumption went from 124.9 MB to 124.8 MB.
+Total: 3.686100 ms (FindLiveObjects: 0.228800 ms CreateObjectMapping: 0.052800 ms MarkObjects: 3.241800 ms  DeleteObjects: 0.161200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,61 +168,81 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 23884.444483 seconds.
-  path: Assets/Mine/Effects/fire.png
-  artifactKey: Guid(e931704eac45c4c48bc466b595e86a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 4827.743222 seconds.
+  path: Assets/Level1/Mine/Models/Rocks/Rock1.fbx
+  artifactKey: Guid(73a471e9087c8114db750e1b4b4c91a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Mine/Effects/fire.png using Guid(e931704eac45c4c48bc466b595e86a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aae558eeda76398abac5af6abc86c07') in 0.110551 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Level1/Mine/Models/Rocks/Rock1.fbx using Guid(73a471e9087c8114db750e1b4b4c91a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f760aed39baf1b38878bd4b6d65490b') in 0.287028 seconds 
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 284.590861 seconds.
-  path: Assets/Level1/Scenes/Level1 - Map/ReflectionProbe-0.exr
-  artifactKey: Guid(79836722016ee5344ba54b9b655d4619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 391.569796 seconds.
+  path: Assets/Level1/Mine/Prefabs/Base/RampUp.prefab
+  artifactKey: Guid(f134863d956a12a41a5e0ccdedb110ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/Scenes/Level1 - Map/ReflectionProbe-0.exr using Guid(79836722016ee5344ba54b9b655d4619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2d9541df733b5ce91ef985e0eff255') in 0.057241 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/Level1/Mine/Prefabs/Base/RampUp.prefab using Guid(f134863d956a12a41a5e0ccdedb110ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6421e777fcf015514959197fa2a02299') in 0.073521 seconds 
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 960.037524 seconds.
-  path: Assets/Level1/Mine/Models/Props/Materials/Wood2.mat
-  artifactKey: Guid(327ca0910f3cc494fa525504f0f348cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000032 seconds.
+  path: Assets/Level1/Mine/Prefabs/Base/Tunnel1.prefab
+  artifactKey: Guid(dd97834f6f07b5f48967e131f371b7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/Mine/Models/Props/Materials/Wood2.mat using Guid(327ca0910f3cc494fa525504f0f348cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c165ee4bd7ff7c844729d19b5c15b33b') in 0.209738 seconds 
-Number of asset objects unloaded after import = 3
+Start importing Assets/Level1/Mine/Prefabs/Base/Tunnel1.prefab using Guid(dd97834f6f07b5f48967e131f371b7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57dcd391265550fd508ab84443d62807') in 0.073193 seconds 
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 1.235633 seconds.
-  path: Assets/Level1/Mine/Models/Rocks/Materials/Rock1.mat
-  artifactKey: Guid(32a7426e15734484f921ba2766a06d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000026 seconds.
+  path: Assets/Level1/Mine/Prefabs/Base/Tunnel2.prefab
+  artifactKey: Guid(918e9495f6e289f4983e7e744ac76c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/Mine/Models/Rocks/Materials/Rock1.mat using Guid(32a7426e15734484f921ba2766a06d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e16ac24726a36f268523cb56ad8ae6e') in 0.160042 seconds 
-Number of asset objects unloaded after import = 3
+Start importing Assets/Level1/Mine/Prefabs/Base/Tunnel2.prefab using Guid(918e9495f6e289f4983e7e744ac76c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7487df5136d47707e1090ac6be8206b') in 0.070486 seconds 
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Level1/Mine/Models/Rocks/Materials/Rock2.mat
-  artifactKey: Guid(80e99f0fee278dd40bf3618dd8a21eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000054 seconds.
+  path: Assets/Level1/Mine/Prefabs/Base/Tunnel3.prefab
+  artifactKey: Guid(074e9fd3c543c144e972e97dff953b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/Mine/Models/Rocks/Materials/Rock2.mat using Guid(80e99f0fee278dd40bf3618dd8a21eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf47cf2770e063a42b27bcf1e767f4aa') in 0.033548 seconds 
-Number of asset objects unloaded after import = 3
+Start importing Assets/Level1/Mine/Prefabs/Base/Tunnel3.prefab using Guid(074e9fd3c543c144e972e97dff953b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afaca10abbac2e05e280faec42ef7428') in 0.068276 seconds 
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 0.104956 seconds.
-  path: Assets/Level1/Mine/Models/Props/Materials/Pickaxe.mat
-  artifactKey: Guid(a8b3705a58187ac4c94fd96c42d8bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 2.216910 seconds.
+  path: Assets/Level1/Mine/Prefabs/Props/Hatch.prefab
+  artifactKey: Guid(1f136777da95ba641be965f3b39286ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/Mine/Models/Props/Materials/Pickaxe.mat using Guid(a8b3705a58187ac4c94fd96c42d8bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bfe718c2991c25856dae77f388fc99') in 0.192547 seconds 
-Number of asset objects unloaded after import = 4
+Start importing Assets/Level1/Mine/Prefabs/Props/Hatch.prefab using Guid(1f136777da95ba641be965f3b39286ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eccfe9cdc534da99ae0d10f1b33a5be') in 0.029064 seconds 
+Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 0.083983 seconds.
-  path: Assets/Level1/Mine/Models/Props/Materials/Lantern.mat
-  artifactKey: Guid(c1dba05084b54ea449d47a9fbdd098b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000017 seconds.
+  path: Assets/Level1/Mine/Prefabs/Props/Ladder.prefab
+  artifactKey: Guid(10f81f7f1e6523b4fa0b5b6f0ea61f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/Mine/Models/Props/Materials/Lantern.mat using Guid(c1dba05084b54ea449d47a9fbdd098b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d8fa3c346db0c6891b6f906788f5e0') in 0.033544 seconds 
-Number of asset objects unloaded after import = 4
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Start importing Assets/Level1/Mine/Prefabs/Props/Ladder.prefab using Guid(10f81f7f1e6523b4fa0b5b6f0ea61f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd395e416586f7a19073d110ac80f7344') in 0.020590 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Level1/Mine/Prefabs/Props/Lantern.prefab
+  artifactKey: Guid(57bc482487154a64085c1d0847e454b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level1/Mine/Prefabs/Props/Lantern.prefab using Guid(57bc482487154a64085c1d0847e454b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8fd00fa83fbb044a3ff41cd7e2723e') in 0.068916 seconds 
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 3.271359 seconds.
+  path: Assets/Level1/Mine/Prefabs/Rocks/OreRed.prefab
+  artifactKey: Guid(a957dc986069ca3409a5fb1599a3cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level1/Mine/Prefabs/Rocks/OreRed.prefab using Guid(a957dc986069ca3409a5fb1599a3cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97900ad5691a68813ec28149cf28a28a') in 0.071800 seconds 
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Level1/Mine/Prefabs/Rocks/Rock1.prefab
+  artifactKey: Guid(512245daca745f64693d790c6c69d575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level1/Mine/Prefabs/Rocks/Rock1.prefab using Guid(512245daca745f64693d790c6c69d575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e69ed95c9b5c12baf0f72793f2ebab') in 0.031040 seconds 
+Number of asset objects unloaded after import = 11
