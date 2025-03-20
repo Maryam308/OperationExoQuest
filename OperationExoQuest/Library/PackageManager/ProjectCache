@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638779709691175416
     m_Hash: 2624657611
+=======
+      ticks: 638779781535089248
+    m_Hash: 426783370
+>>>>>>> Stashed changes
   m_LockFileStatus:
     m_FilePath: C:/Users/Fatima Ali/Desktop/OperationExoQuest/OperationExoQuest/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638779709691185333
     m_Hash: 3005026845
+=======
+      ticks: 638779781535209602
+    m_Hash: 506388234
+>>>>>>> Stashed changes
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -637,12 +647,16 @@ m_ResolvedPackages:
     version: 1.1.33
     nextVersion: 
     recommendedVersion: 
-- packageId: com.unity.textmeshpro@3.0.6
+- packageId: com.unity.textmeshpro@3.0.9
   testable: 0
   isDirectDependency: 1
-  version: 3.0.6
+  version: 3.0.9
   source: 1
+<<<<<<< Updated upstream
   resolvedPath: C:\Users\Fatima Ali\Desktop\OperationExoQuest\OperationExoQuest\Library\PackageCache\com.unity.textmeshpro@3.0.6
+=======
+  resolvedPath: C:\Users\User\Desktop\OperationExoQuest\OperationExoQuest\Library\PackageCache\com.unity.textmeshpro@3.0.9
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -651,7 +665,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: asset
+  type: assets
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -817,13 +831,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637547111200000000
-  documentationUrl: 
+  datePublishedTicks: 638515173480000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
+    revision: 0af193626b4f76795f7cb6c9b0f55389d0e4b1d6
     path: 
   unityLifecycle:
     version: 3.0.6
