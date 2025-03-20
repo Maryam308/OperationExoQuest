@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.45f1 (0da89fac8e79) revision 895135'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16076 MB
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 32306 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.45f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/Fatima Ali/Desktop/OperationExoQuest/OperationExoQuest
+C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60393
-Successfully changed project path to: C:/Users/Fatima Ali/Desktop/OperationExoQuest/OperationExoQuest
-C:/Users/Fatima Ali/Desktop/OperationExoQuest/OperationExoQuest
+56498
+Successfully changed project path to: C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
+C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,117 +47,118 @@ C:/Users/Fatima Ali/Desktop/OperationExoQuest/OperationExoQuest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31564] Host "[IP] 192.168.222.1 [Port] 0 [Flags] 2 [Guid] 2056313653 [EditorId] 2056313653 [Version] 1048832 [Id] WindowsEditor(7,Fatima) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [33984] Host "[IP] 192.168.100.110 [Port] 0 [Flags] 2 [Guid] 4138581406 [EditorId] 4138581406 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [31564] Host "[IP] 192.168.222.1 [Port] 0 [Flags] 2 [Guid] 2056313653 [EditorId] 2056313653 [Version] 1048832 [Id] WindowsEditor(7,Fatima) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [33984] Host "[IP] 192.168.100.110 [Port] 0 [Flags] 2 [Guid] 4138581406 [EditorId] 4138581406 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 129.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 32.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.45f1 (0da89fac8e79)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Fatima Ali/Desktop/OperationExoQuest/OperationExoQuest/Assets
+[Subsystems] Discovering subsystems at path C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce MX350 (ID=0x1c94)
-    Vendor:   NVIDIA
-    VRAM:     1979 MB
-    Driver:   30.0.14.7186
+    Renderer: Intel(R) Arc(TM) Graphics (ID=0x7d55)
+    Vendor:   Intel
+    VRAM:     18414 MB
+    Driver:   32.0.101.6129
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006509 seconds.
+Registered in 0.003866 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 31.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.762 seconds
+- Completed reload, in  0.466 seconds
 Domain Reload Profiling:
-	ReloadAssembly (763ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (467ms)
+		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (519ms)
-			LoadAssemblies (114ms)
+		EndReloadAssembly (306ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (143ms)
+			SetupTypeCache (78ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (291ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (177ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (165ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				RefreshPlugins (32ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006074 seconds.
+Registered in 0.003206 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.926 seconds
+- Completed reload, in  1.171 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1927ms)
-		BeginReloadAssembly (220ms)
+	ReloadAssembly (1171ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1552ms)
-			LoadAssemblies (168ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (995ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (408ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (920ms)
+			SetupTypeCache (193ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (661ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (792ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (592ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (46.4 KB). Loaded Objects now: 3539.
-Memory consumption went from 106.7 MB to 106.7 MB.
-Total: 4.153600 ms (FindLiveObjects: 0.402100 ms CreateObjectMapping: 0.129100 ms MarkObjects: 3.477600 ms  DeleteObjects: 0.138800 ms)
+Unloading 3081 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (46.6 KB). Loaded Objects now: 3548.
+Memory consumption went from 108.9 MB to 108.8 MB.
+Total: 2.270700 ms (FindLiveObjects: 0.211700 ms CreateObjectMapping: 0.050100 ms MarkObjects: 1.948000 ms  DeleteObjects: 0.060100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -167,9 +168,150 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 10182737.015966 seconds.
-  path: Assets/MainMenu
-  artifactKey: Guid(fc6a14a771f1805408a7706288c6e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 13779.200502 seconds.
+  path: Assets/Level1/sf-hallway/textures/red.png
+  artifactKey: Guid(2ab6dd2aefbba60409c6bcd5b7fa8217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/MainMenu using Guid(fc6a14a771f1805408a7706288c6e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff4450e6cbefc3680d641b0e131acd6') in 0.039571 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/Level1/sf-hallway/textures/red.png using Guid(2ab6dd2aefbba60409c6bcd5b7fa8217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d8a7ddc9f5b1c6fd62ef45b6a3f9fe') in 0.092109 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.701520 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Block_winter.mat
+  artifactKey: Guid(8821f58857d5a6a4598b3bfaa29c650f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Block_winter.mat using Guid(8821f58857d5a6a4598b3bfaa29c650f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4770010d4c08bc6dbac7203c44498f00') in 0.089207 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Ground_winter.mat
+  artifactKey: Guid(45b62ad556f35a34880519c4c57e5f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Ground_winter.mat using Guid(45b62ad556f35a34880519c4c57e5f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c02e876c97c42362748c6478a814ec') in 0.028351 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Cliff_summer.mat
+  artifactKey: Guid(1d866ffe64ba26e4ea4b420d8c161813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Cliff_summer.mat using Guid(1d866ffe64ba26e4ea4b420d8c161813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0448e1e6cbc669012361a9acafe40a1') in 0.025797 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Cliff_winter.mat
+  artifactKey: Guid(23a4cff6f492b154a90aa314725c52cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Cliff_winter.mat using Guid(23a4cff6f492b154a90aa314725c52cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d120a114c650417aeea844246d179ab') in 0.034687 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Ground_summer.mat
+  artifactKey: Guid(5425131503b27164790ecac873e57218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Ground_summer.mat using Guid(5425131503b27164790ecac873e57218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5039cf9d2d31ea8b649289f0c199f87b') in 0.028091 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Road_autumn.mat
+  artifactKey: Guid(4ced4d86fe485ae4393064f8aad0951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Road_autumn.mat using Guid(4ced4d86fe485ae4393064f8aad0951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663b8eba08e384b4da50b042e925a4ce') in 0.032861 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/RepentanceSign.mat
+  artifactKey: Guid(1bcabe1ee2df8cc439084d9d26524400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/RepentanceSign.mat using Guid(1bcabe1ee2df8cc439084d9d26524400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb9d1ea01ce212243e9c7231ae89011') in 0.042821 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.560279 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/RoadLight_emit.mat
+  artifactKey: Guid(80e5b48c483c3ef42bed20dfc738c730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/RoadLight_emit.mat using Guid(80e5b48c483c3ef42bed20dfc738c730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72a00288579bda636b210416374bd94') in 0.021613 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Sky_day.mat
+  artifactKey: Guid(0bc1c138bbcb74ec193623ac0ce77125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Sky_day.mat using Guid(0bc1c138bbcb74ec193623ac0ce77125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffe33ec92ca30c771652f276ed9caf4') in 0.025120 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Tree_01_summer.mat
+  artifactKey: Guid(7693c905ae3522b41ac45bcd58330924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Tree_01_summer.mat using Guid(7693c905ae3522b41ac45bcd58330924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb237bfa7420cb5e9011ad4efc6f3cb') in 0.024290 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Tree_02_summer.mat
+  artifactKey: Guid(adde2956c68ddd74d951a6e688e98a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Tree_02_summer.mat using Guid(adde2956c68ddd74d951a6e688e98a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714b8212b09f21e8cc9ce34bc38574ab') in 0.026027 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Tree_03_autumn.mat
+  artifactKey: Guid(7d627b2421360fe4fb4b1b3b179e46b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Tree_03_autumn.mat using Guid(7d627b2421360fe4fb4b1b3b179e46b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6591db6ae89930b7b41ddf1b978b7b') in 0.022928 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Tree_01_autumn.mat
+  artifactKey: Guid(e99c2b5b6f1320640af19dbf6f9d2ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Tree_01_autumn.mat using Guid(e99c2b5b6f1320640af19dbf6f9d2ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec8e435b7e1d57c8aba3b60e1f2baba') in 0.024135 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.275153 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Tree_04_autumn.mat
+  artifactKey: Guid(15e35b94a78080348b02ca826a80aff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Tree_04_autumn.mat using Guid(15e35b94a78080348b02ca826a80aff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587538a687723599c4c5616f1091e417') in 0.019307 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Tree_04_summer.mat
+  artifactKey: Guid(db98ae64e7397e240aeba5f52b5c795e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Tree_04_summer.mat using Guid(db98ae64e7397e240aeba5f52b5c795e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a095a326a6b805e4d5287aa1083809') in 0.024262 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Tunnel.mat
+  artifactKey: Guid(e230fee857499bf4fa0325179f7f7c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Tunnel.mat using Guid(e230fee857499bf4fa0325179f7f7c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219ac69e1adc16d0331e020377c39547') in 0.034023 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.042547 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Materials/Wall.mat
+  artifactKey: Guid(5096402cb35281e4da1c4259ee5fdb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Materials/Wall.mat using Guid(5096402cb35281e4da1c4259ee5fdb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a68b0cd8319e39517b350bd31b8ea2') in 0.026939 seconds 
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
