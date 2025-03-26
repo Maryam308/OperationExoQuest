@@ -13,14 +13,14 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638780292920670422
-    m_Hash: 66752338
+      ticks: 638786172702382161
+    m_Hash: 3920896279
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest/Packages
-m_EditorVersion: 2021.3.45f1 (0da89fac8e79)
+m_EditorVersion: 2021.3.39f1 (fb3b7b32f191)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.5.2
   testable: 0
@@ -122,10 +122,14 @@ m_ResolvedPackages:
     - 2.6.0
     - 2.7.1
     compatible:
+    - 2.3.1
+    - 2.4.3
+    - 2.4.4
+    - 2.5.1
     - 2.5.2
     - 2.6.0
     - 2.7.1
-    verified: 2.5.2
+    verified: 2.3.1
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -162,7 +166,7 @@ m_ResolvedPackages:
     revision: c402e6396d3ea20ecb2d59eac908e7e0a30cd7e6
     path: 
   unityLifecycle:
-    version: 2.5.2
+    version: 2.3.1
     nextVersion: 
     recommendedVersion: 
 - packageId: com.unity.feature.development@1.0.1
@@ -227,7 +231,7 @@ m_ResolvedPackages:
   - name: com.unity.performance.profile-analyzer
     version: 1.2.2
   - name: com.unity.testtools.codecoverage
-    version: 1.2.6
+    version: 1.2.5
   - name: com.unity.settings-manager
     version: 1.0.3
   keywords: []
@@ -321,6 +325,7 @@ m_ResolvedPackages:
     - 3.0.34
     - 3.0.35
     compatible:
+    - 3.0.28
     - 3.0.31
     - 3.0.34
     - 3.0.35
@@ -351,7 +356,7 @@ m_ResolvedPackages:
     revision: ccd778a2275ff09f1a83bc924cfb2fb4d5b63566
     path: 
   unityLifecycle:
-    version: 3.0.31
+    version: 3.0.28
     nextVersion: 
     recommendedVersion: 
 - packageId: com.unity.ide.visualstudio@2.0.22
@@ -586,6 +591,7 @@ m_ResolvedPackages:
     - 6.0.4
     - 6.0.5
     compatible:
+    - 5.2.2
     - 5.2.3
     - 5.2.4
     verified: 5.2.4
@@ -643,7 +649,7 @@ m_ResolvedPackages:
     revision: 4dfe5d0a97cdea307668dae116b2b69982507cc1
     path: 
   unityLifecycle:
-    version: 5.2.3
+    version: 5.2.2
     nextVersion: 
     recommendedVersion: 
 - packageId: com.unity.test-framework@1.1.33
@@ -3373,12 +3379,12 @@ m_ResolvedPackages:
     version: 1.2.2
     nextVersion: 
     recommendedVersion: 
-- packageId: com.unity.testtools.codecoverage@1.2.6
+- packageId: com.unity.testtools.codecoverage@1.2.5
   testable: 0
   isDirectDependency: 0
-  version: 1.2.6
+  version: 1.2.5
   source: 1
-  resolvedPath: C:\Users\mario\source\repos\GameDev\OperationExoQuest\OperationExoQuest\Library\PackageCache\com.unity.testtools.codecoverage@1.2.6
+  resolvedPath: C:\Users\mario\source\repos\GameDev\OperationExoQuest\OperationExoQuest\Library\PackageCache\com.unity.testtools.codecoverage@1.2.5
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -3429,6 +3435,7 @@ m_ResolvedPackages:
     - 1.2.5
     - 1.2.6
     compatible:
+    - 1.2.5
     - 1.2.6
     verified: 1.2.6
   dependencies:
@@ -3462,15 +3469,15 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638575857900000000
+  datePublishedTicks: 638386640140000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
-    revision: 959db8ff97eedf9b211ad5cf320b87ac01f1e90f
+    revision: afeb9febf6597fcc31c99ca116d6a82b1e97b9f5
     path: 
   unityLifecycle:
-    version: 1.2.6
+    version: 1.2.5
     nextVersion: 
     recommendedVersion: 
