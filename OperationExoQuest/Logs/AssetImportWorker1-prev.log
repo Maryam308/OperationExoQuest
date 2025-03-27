@@ -1,0 +1,844 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.39f1 (fb3b7b32f191) revision 16464763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 32306 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.39f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59573
+Successfully changed project path to: C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
+C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [37716] Host "[IP] 192.168.100.110 [Port] 0 [Flags] 2 [Guid] 3348315095 [EditorId] 3348315095 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [37716] Host "[IP] 192.168.100.110 [Port] 0 [Flags] 2 [Guid] 3348315095 [EditorId] 3348315095 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 53.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.39f1 (fb3b7b32f191)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Arc(TM) Graphics (ID=0x7d55)
+    Vendor:   Intel
+    VRAM:     18414 MB
+    Driver:   32.0.101.6129
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002826 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 49.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.512 seconds
+Domain Reload Profiling:
+	ReloadAssembly (512ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (359ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (89ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003654 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.196 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1197ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1015ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (676ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (590ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (100.9 KB). Loaded Objects now: 3928.
+Memory consumption went from 124.3 MB to 124.2 MB.
+Total: 2.641900 ms (FindLiveObjects: 0.241100 ms CreateObjectMapping: 0.052200 ms MarkObjects: 2.245900 ms  DeleteObjects: 0.101500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20129.636386 seconds.
+  path: Assets/Level2/Scenes
+  artifactKey: Guid(896f6c8d0a498854f8ed839d8ec3f040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Scenes using Guid(896f6c8d0a498854f8ed839d8ec3f040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a21c0860ccf120624e96e49594acae') in 0.035869 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 41.429539 seconds.
+  path: Assets/Level2/MountainTrack2/Models/FBX/Track04_autumn.fbx
+  artifactKey: Guid(14b90cd15fbdf78459aecca2f59cb7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/FBX/Track04_autumn.fbx using Guid(14b90cd15fbdf78459aecca2f59cb7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1857e8322ffe61ac412cc5bf4a7c1418') in 1.861909 seconds 
+Number of asset objects unloaded after import = 452
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Level2/MountainTrack2/Models/FBX/Track06_winter.fbx
+  artifactKey: Guid(7c5cdae0ff8d6284b8df48e686f3433d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/FBX/Track06_winter.fbx using Guid(7c5cdae0ff8d6284b8df48e686f3433d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebf00816911c416d6d4e918963c9f3d') in 0.493013 seconds 
+Number of asset objects unloaded after import = 523
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Level2/MountainTrack2/Models/FBX/Track04_winter.fbx
+  artifactKey: Guid(141306d82d996f64b9948289efce6af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/FBX/Track04_winter.fbx using Guid(141306d82d996f64b9948289efce6af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7403d76dbe2ea0cb27983aaa47e4b787') in 0.381887 seconds 
+Number of asset objects unloaded after import = 452
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Level2/MountainTrack2/Models/FBX/Track05_summer.fbx
+  artifactKey: Guid(e317e330f1ce19b439c597c3e82650e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/FBX/Track05_summer.fbx using Guid(e317e330f1ce19b439c597c3e82650e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db65a58695e084daed51f6cdf96958d') in 0.518815 seconds 
+Number of asset objects unloaded after import = 544
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Level2/MountainTrack2/Models/FBX/Track05_autumn.fbx
+  artifactKey: Guid(d3807d9ce2711db4da925467c28d0184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/FBX/Track05_autumn.fbx using Guid(d3807d9ce2711db4da925467c28d0184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfe8aad93c3e8e29d143a6c244c8b42') in 0.448478 seconds 
+Number of asset objects unloaded after import = 544
+========================================================================
+Received Import Request.
+  Time since last request: 1297.892501 seconds.
+  path: Assets/Level2/3d-model_02.fbx
+  artifactKey: Guid(651c3f23084f9ac43ad4281033569ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/3d-model_02.fbx using Guid(651c3f23084f9ac43ad4281033569ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa734509f540ebec3af038f4274bd97b') in 0.155466 seconds 
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Level2/3d-model_03.fbx
+  artifactKey: Guid(519f976384c141e4b89c89b5d8f8b4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/3d-model_03.fbx using Guid(519f976384c141e4b89c89b5d8f8b4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed08c83e853ea1c8fb9e407724b5ee59') in 0.148376 seconds 
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 703.923121 seconds.
+  path: Assets/Level2/textures/6twelve_Sign.png
+  artifactKey: Guid(0a49a5ff13ca717469bfb26082a43f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/6twelve_Sign.png using Guid(0a49a5ff13ca717469bfb26082a43f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0502ade273ceb3453fd40590d9f06c08') in 0.099303 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Level2/textures/ICE.png
+  artifactKey: Guid(dba2609e5d1aabe45abcf4c4acb2f290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/ICE.png using Guid(dba2609e5d1aabe45abcf4c4acb2f290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8c5d9f25c50ed405ef0027e2d88b5c') in 0.031823 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Level2/textures/Asphalt.jpeg
+  artifactKey: Guid(7b65a19b6dd3b484c96e26da7948700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Asphalt.jpeg using Guid(7b65a19b6dd3b484c96e26da7948700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4ad9591b04e576f8d46e3c1277c2fd') in 0.033059 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Level2/textures/Fuel_pump.png
+  artifactKey: Guid(c45c8f4b0dd836746b6f117abd09db94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Fuel_pump.png using Guid(c45c8f4b0dd836746b6f117abd09db94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710fdea06f5e0c52a026c06dcb79799b') in 0.020653 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Level2/textures/Door_01.jpeg
+  artifactKey: Guid(ec6934ab7fccd0c498de975d0e558109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Door_01.jpeg using Guid(ec6934ab7fccd0c498de975d0e558109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c9c2adbe517a005519444bdc102aa8') in 0.021998 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Level2/textures/Foods_02.jpeg
+  artifactKey: Guid(1752cfda0439427478e3bf2ffba3b7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Foods_02.jpeg using Guid(1752cfda0439427478e3bf2ffba3b7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336f081f37e930ddc6eba2d58f3a4850') in 0.027175 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Level2/textures/Metal.jpeg
+  artifactKey: Guid(5750778bfaf8ae14d94bcb5e1c663c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Metal.jpeg using Guid(5750778bfaf8ae14d94bcb5e1c663c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f2bd6282614daaead1d870c5e14607') in 0.028124 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Level2/textures/MetalPlates.jpeg
+  artifactKey: Guid(13210f93de230b040bea33d36c2c1b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/MetalPlates.jpeg using Guid(13210f93de230b040bea33d36c2c1b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d347b93ecd6348135c2f09f94d74ba6') in 0.025560 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Level2/textures/Brick.jpeg
+  artifactKey: Guid(8c1b2294af4cac94797032aec512b576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Brick.jpeg using Guid(8c1b2294af4cac94797032aec512b576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fa67edd378ae4804f3d7fbce1e19f5') in 0.025709 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Level2/textures/Bush.png
+  artifactKey: Guid(4151dcc06e3b22f4183133e987c1c31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Bush.png using Guid(4151dcc06e3b22f4183133e987c1c31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b8006ed8dedc34636dd7c733fcf4cc') in 0.027257 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Level2/textures/Carpet.jpeg
+  artifactKey: Guid(30f960d0cbe84624592c7feca602c69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Carpet.jpeg using Guid(30f960d0cbe84624592c7feca602c69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1baa2dc790a888807a9aa20f9f9131e') in 0.026558 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Level2/textures/Office_Ceiling.jpeg
+  artifactKey: Guid(0676c63c8c1f2584b982cf1864477aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Office_Ceiling.jpeg using Guid(0676c63c8c1f2584b982cf1864477aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2dc34bf3bbf7491a9007aec973c439f') in 0.027165 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Level2/textures/ice_slush_machine.png
+  artifactKey: Guid(35fa6f59e4e4c1f4f9e19b4f5f6e144b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/ice_slush_machine.png using Guid(35fa6f59e4e4c1f4f9e19b4f5f6e144b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e71c32202747d53d16331e484d57fb') in 0.023967 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Level2/textures/Fridge.png
+  artifactKey: Guid(4a69f69763b264843a26e0a413233aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Fridge.png using Guid(4a69f69763b264843a26e0a413233aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e18d79ea844a14d7e89a03839e71c8') in 0.028080 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Level2/textures/Camera.png
+  artifactKey: Guid(b2d82e9ec6b066b40a90d6231cbd0b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Camera.png using Guid(b2d82e9ec6b066b40a90d6231cbd0b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d581ec13e78d7dc8d86958eb7adc9f9') in 0.026574 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Level2/textures/Metal_02.jpeg
+  artifactKey: Guid(eeec30cb7be65f14c90dde4715cc28c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Metal_02.jpeg using Guid(eeec30cb7be65f14c90dde4715cc28c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee95d209ca28a21efc1acd837c022710') in 0.026065 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Level2/textures/Checker.png
+  artifactKey: Guid(9d3a3d42d5d8c5a4385106855b35ae56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Checker.png using Guid(9d3a3d42d5d8c5a4385106855b35ae56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164abef96ee92939fa8931da654d652b') in 0.025712 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Level2/textures/6twelve_Sign_Emissor.png
+  artifactKey: Guid(63b5b82f397fa9c4cae85e29f4db7682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/6twelve_Sign_Emissor.png using Guid(63b5b82f397fa9c4cae85e29f4db7682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e276986d413dbf5fc3b1c56ced6336fb') in 0.028071 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.483369 seconds.
+  path: Assets/Level2/textures/Refrigerador_01.jpeg
+  artifactKey: Guid(e7a2e44ddd6715b408e85923d44812ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Refrigerador_01.jpeg using Guid(e7a2e44ddd6715b408e85923d44812ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2875a8fa99530567b09e84569b337634') in 0.028524 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Level2/textures/spotlight.png
+  artifactKey: Guid(49ed77cc38ca3a64199bea6338a9af8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/spotlight.png using Guid(49ed77cc38ca3a64199bea6338a9af8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bac326796e4d0c56303e31d167b378e') in 0.027277 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Level2/textures/Sanitary.png
+  artifactKey: Guid(105ea4121ed1523478b2b13136a279a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Sanitary.png using Guid(105ea4121ed1523478b2b13136a279a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0571407b126647ccdd251ed757d28315') in 0.026915 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Level2/textures/Shelving.png
+  artifactKey: Guid(4d3e904490ed3d844a50a08be946a963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Shelving.png using Guid(4d3e904490ed3d844a50a08be946a963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a02d4818af6e10c3e5446cf44c549ff') in 0.023913 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Level2/textures/spotlight_Emissor.png
+  artifactKey: Guid(e5a8bd6b2bdcef24685031c095fd1671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/spotlight_Emissor.png using Guid(e5a8bd6b2bdcef24685031c095fd1671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83761df93568955b201b5752f1f7152') in 0.027242 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Level2/textures/Tiles.jpeg
+  artifactKey: Guid(29b7dd22ef793a740aed535bfa2d53f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Tiles.jpeg using Guid(29b7dd22ef793a740aed535bfa2d53f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de150b75982ed591bbe8763c3d7b1350') in 0.027601 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.098228 seconds.
+  path: Assets/Level2/textures/Toilets_Sing.png
+  artifactKey: Guid(957af2af8323f0d429a99b349fd3a995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Toilets_Sing.png using Guid(957af2af8323f0d429a99b349fd3a995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da44b0639e5607a2d75012fd00b9e12a') in 0.025615 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Level2/textures/Tree_01.png
+  artifactKey: Guid(6d514cfce1206e546ae79ee4983ee575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Tree_01.png using Guid(6d514cfce1206e546ae79ee4983ee575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f9cc8b76b697e1567c474ea2d5eebd') in 0.027481 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Level2/textures/Tree.png
+  artifactKey: Guid(f2a4c057fdf36f14a8f17ec8fb8f2db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/textures/Tree.png using Guid(f2a4c057fdf36f14a8f17ec8fb8f2db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1595765a992f0abe1de933ebdbe070') in 0.028186 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 61.860553 seconds.
+  path: Assets/Level2/Gas_station_Props
+  artifactKey: Guid(07291b12b68d156489e22f922b3e3cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props using Guid(07291b12b68d156489e22f922b3e3cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925fd020b0f30f958e61bbfed001f601') in 0.003853 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.047577 seconds.
+  path: Assets/Level2/Gas_station_Props/6twelve.jpg
+  artifactKey: Guid(5a613789bd52b604c903ee4425723a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/6twelve.jpg using Guid(5a613789bd52b604c903ee4425723a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a21f35c65f86d83c55d7d958850d48') in 0.009284 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Level2/Gas_station_Props/Brick.jpg
+  artifactKey: Guid(e9149f56de2db0342b9b2da37c4c07eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/Brick.jpg using Guid(e9149f56de2db0342b9b2da37c4c07eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4e1781a8b032bc5b3343e89135098b') in 0.025017 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Level2/Gas_station_Props/Metal.jpg
+  artifactKey: Guid(dd07488c6e8e3b54bb6354625f1e2843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/Metal.jpg using Guid(dd07488c6e8e3b54bb6354625f1e2843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4512bbce6c22688f52037566d54e674b') in 0.022144 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Level2/Gas_station_Props/Coffee_machine.png
+  artifactKey: Guid(3532f89e15132c542bf9046e04b77262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/Coffee_machine.png using Guid(3532f89e15132c542bf9046e04b77262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56230391c680d966337dd761683f331b') in 0.026060 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Level2/Gas_station_Props/Deposit.jpg
+  artifactKey: Guid(4fe77f607d06c6e47b27ab71c80d8383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/Deposit.jpg using Guid(4fe77f607d06c6e47b27ab71c80d8383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf726d372bb224ae76a2c21ec6d46f9') in 0.021257 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Level2/Gas_station_Props/AsphaltDamaged.jpg
+  artifactKey: Guid(f01ab3ea0111cf541b1389c7e4b41c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/AsphaltDamaged.jpg using Guid(f01ab3ea0111cf541b1389c7e4b41c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb0ec57d79e7b6dd1487a9698e28ee0') in 0.024966 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Level2/Gas_station_Props/Others.png
+  artifactKey: Guid(742c61dc482e20d45b5a211ef49e28a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/Others.png using Guid(742c61dc482e20d45b5a211ef49e28a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19899038aa8c5cd84d391c26614670e3') in 0.026273 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Level2/Gas_station_Props/Carpet.jpg
+  artifactKey: Guid(d6e6dcba75c04e440b7ba83cbb35bd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/Carpet.jpg using Guid(d6e6dcba75c04e440b7ba83cbb35bd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee61b10f8d5b307c097d011e31533c6b') in 0.025760 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Level2/Gas_station_Props/Ground.jpg
+  artifactKey: Guid(07fd5de3f47afa1449048c30aa1b7404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/Ground.jpg using Guid(07fd5de3f47afa1449048c30aa1b7404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0a4e0b1685d408e8f1849fdf93804a') in 0.022051 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Level2/Gas_station_Props/Board.jpg
+  artifactKey: Guid(701086c9c1aad24489337a84e374892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/Board.jpg using Guid(701086c9c1aad24489337a84e374892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99a341ef74e1b2b76322efcb6373113') in 0.028699 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Level2/Gas_station_Props/Door.jpg
+  artifactKey: Guid(e1c299492ab24fd47bd5a67180715389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/Door.jpg using Guid(e1c299492ab24fd47bd5a67180715389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca5813b023216e189577f31be288437') in 0.012425 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Level2/Gas_station_Props/Fusible.png
+  artifactKey: Guid(dc5f749b78c8f944291606b6aa40f4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/Fusible.png using Guid(dc5f749b78c8f944291606b6aa40f4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50ec8d6b3ad8f2bc1c981a116dae23d') in 0.021382 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Level2/Gas_station_Props/Metal_02.jpg
+  artifactKey: Guid(3d7c9b8996415404388b606a21afd5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/Metal_02.jpg using Guid(3d7c9b8996415404388b606a21afd5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a701a15510bfe9a7d0a31c182354cec') in 0.025703 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Level2/Gas_station_Props/Bush.png
+  artifactKey: Guid(8662535b61c146948a0f914ae5710698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/Bush.png using Guid(8662535b61c146948a0f914ae5710698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568cb5d4f5499e5d22bc4b58230babcb') in 0.023810 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Level2/Gas_station_Props/Asphalt.jpg
+  artifactKey: Guid(02882f9cb49f77f40b3faf0c45ea991d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/Asphalt.jpg using Guid(02882f9cb49f77f40b3faf0c45ea991d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4698c8dab5f77cc0f22816e7d83ab246') in 0.025614 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Level2/Gas_station_Props/Marble.jpg
+  artifactKey: Guid(3b4be1511150b7f4dacc4dcc0de137a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/Marble.jpg using Guid(3b4be1511150b7f4dacc4dcc0de137a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473cc794640785e27d8af82e3970dd72') in 0.024355 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Level2/Gas_station_Props/MetalPlates.jpg
+  artifactKey: Guid(3681d5e122ec68f49ad86ee8c10c4c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/MetalPlates.jpg using Guid(3681d5e122ec68f49ad86ee8c10c4c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0f3202ede01298b1fd2bc6b6a303cd') in 0.027105 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Level2/Gas_station_Props/Camera.png
+  artifactKey: Guid(a0469ec80e09d5241814994ecd4758ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/Camera.png using Guid(a0469ec80e09d5241814994ecd4758ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0660520cd26bb22e8ec2e24adcfa107') in 0.024458 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Level2/Gas_station_Props/Metal_03.jpg
+  artifactKey: Guid(878def83273c8c44ea54cc0c749d9854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/Metal_03.jpg using Guid(878def83273c8c44ea54cc0c749d9854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6711e07f395b0dd50a7af8845616b32') in 0.026071 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Level2/Gas_station_Props/Gas_station_Props.fbx
+  artifactKey: Guid(174423e55018c6b40b4cba0a0f25a5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/Gas_station_Props/Gas_station_Props.fbx using Guid(174423e55018c6b40b4cba0a0f25a5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe7c71e0b15f21952ffe1f699a332c7') in 1.285229 seconds 
+Number of asset objects unloaded after import = 897
+========================================================================
+Received Import Request.
+  Time since last request: 230.373050 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/Block_summer_Normal.png
+  artifactKey: Guid(1dc029100acce204ea22fad094221ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/Block_summer_Normal.png using Guid(1dc029100acce204ea22fad094221ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb3f5c9cb9762ff0ca20098db75ef79') in 0.032120 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/RoadLight_SpecularSmoothness.png
+  artifactKey: Guid(a8c1cc0fd4bfa8d4f9ed0941639a89a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/RoadLight_SpecularSmoothness.png using Guid(a8c1cc0fd4bfa8d4f9ed0941639a89a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334ce3e1e12c61f3f282e5bfae975ae2') in 0.027367 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/Ground_winter_norm.jpg
+  artifactKey: Guid(4a2eb65df87a62748babfdd3685ba1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/Ground_winter_norm.jpg using Guid(4a2eb65df87a62748babfdd3685ba1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a249852f25f2af7d0f88987513573933') in 0.028219 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/cliff.png
+  artifactKey: Guid(9695cbabc7c898c46b6ce98c3c1e5c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/cliff.png using Guid(9695cbabc7c898c46b6ce98c3c1e5c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8badb9be68aacbb095d72ac12c2773') in 0.023873 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/tree_01_winter.png
+  artifactKey: Guid(9ca5557fc346e5d40aea26abbc4980f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/tree_01_winter.png using Guid(9ca5557fc346e5d40aea26abbc4980f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f36d445960f77202efbad859cd9d69') in 0.023375 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/Repentance_lp_Normal.png
+  artifactKey: Guid(86e18c65b3f884f479b38cb6bc2868e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/Repentance_lp_Normal.png using Guid(86e18c65b3f884f479b38cb6bc2868e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e0e37ce68a0c46ed6a3b0655dbf8e0') in 0.026737 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/Ground_summer.jpg
+  artifactKey: Guid(768dd01f132c7274ebd57925487ed332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/Ground_summer.jpg using Guid(768dd01f132c7274ebd57925487ed332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59af87e686df90e2c63b38265e743a5') in 0.024584 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/Road_autumn.jpg
+  artifactKey: Guid(5e95c98cb59fcd94491a9989bc16f615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/Road_autumn.jpg using Guid(5e95c98cb59fcd94491a9989bc16f615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ec0ed4b8394b0f2cee2082eb1371e9') in 0.022444 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/StopRoadSigns_AlbedoTransparency.png
+  artifactKey: Guid(644ec39c101f41b4da66f6debb0e8603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/StopRoadSigns_AlbedoTransparency.png using Guid(644ec39c101f41b4da66f6debb0e8603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4fb319479cc2d30c6e73a89d3c4b13') in 0.023117 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/Block_winter_Normal.png
+  artifactKey: Guid(01cacb3ce1bc0dc4ba9a2395216a34f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/Block_winter_Normal.png using Guid(01cacb3ce1bc0dc4ba9a2395216a34f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c37f10e28e61e94c3919688f368f7c') in 0.023292 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/Repentance_lp_SpecularSmoothness.png
+  artifactKey: Guid(71afb2e8b1f7b4b4c88a56b75bb960f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/Repentance_lp_SpecularSmoothness.png using Guid(71afb2e8b1f7b4b4c88a56b75bb960f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43f3cf90409c9c568e1930d71fc801e') in 0.022517 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/Road_winter.png
+  artifactKey: Guid(632a76f76beadc24baf3b98bc3e47556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/Road_winter.png using Guid(632a76f76beadc24baf3b98bc3e47556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577020eab9cb8bfe5ba71a1d792be6eb') in 0.023364 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/cliff_norm.png
+  artifactKey: Guid(708d6e5a323ecaf47a7b3f24ddf857ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/cliff_norm.png using Guid(708d6e5a323ecaf47a7b3f24ddf857ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7071b358ad657714e681e0ecc41787') in 0.024386 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/tree_01_autumn.png
+  artifactKey: Guid(d4b57778371cba94490974523227d7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/tree_01_autumn.png using Guid(d4b57778371cba94490974523227d7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2b8820bc325a3aa017ea3d58b83046') in 0.027784 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/Road_winter_norm.png
+  artifactKey: Guid(53d74cea274ab44499d72fc12eaa8b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/Road_winter_norm.png using Guid(53d74cea274ab44499d72fc12eaa8b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9f00c156f65e838376d84b9c108f77') in 0.026312 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/Block_summer_SpecularSmoothness.png
+  artifactKey: Guid(39b368313db4c3748ae1a33cfa547dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/Block_summer_SpecularSmoothness.png using Guid(39b368313db4c3748ae1a33cfa547dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4713e091430b4064412914a41a74e5') in 0.026076 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/Cliff_summer.png
+  artifactKey: Guid(0423dc3a9a80f43469ca404f4f4e19e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/Cliff_summer.png using Guid(0423dc3a9a80f43469ca404f4f4e19e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df32964ad2ec8379ef86ac573856e374') in 0.024269 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/Repentance_lp_AlbedoTransparency.png
+  artifactKey: Guid(7ccec7959aa70a64eaf405d2b5fa84ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/Repentance_lp_AlbedoTransparency.png using Guid(7ccec7959aa70a64eaf405d2b5fa84ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f9813cbd84e35176ddbb99db3faf6a') in 0.022091 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/Road_summer.jpg
+  artifactKey: Guid(30fdab4782f80454d8c8db6449c76fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/Road_summer.jpg using Guid(30fdab4782f80454d8c8db6449c76fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72057811e5afcb41abde073f22f13747') in 0.023339 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/Cliff_winter.png
+  artifactKey: Guid(b8187a928a24d1e4aa4aaa0ed41aae3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/Cliff_winter.png using Guid(b8187a928a24d1e4aa4aaa0ed41aae3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b6effb1dc76579149340a87fb1e19e') in 0.040826 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.291108 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/tree_02_winter.png
+  artifactKey: Guid(d6156941b244d234ca0ae13d90d7284f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/tree_02_winter.png using Guid(d6156941b244d234ca0ae13d90d7284f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1c8c99bd315cc4dade47b6c5e0d5e8') in 0.021963 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/tree_04_winter.png
+  artifactKey: Guid(00da1766d38712841b5ba503fd95d1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/tree_04_winter.png using Guid(00da1766d38712841b5ba503fd95d1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2aa2a7f1b49d2b58a0ddb2ca8e4728') in 0.021477 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/tree_04_autumn.png
+  artifactKey: Guid(ea7513742e9bddc48ad27a83a19a3309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/tree_04_autumn.png using Guid(ea7513742e9bddc48ad27a83a19a3309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e85f1358cc6f45fd1654de6055916d4') in 0.021220 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/wall.jpg
+  artifactKey: Guid(fabbfdbd3d1e43e4c9364e850042f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/wall.jpg using Guid(fabbfdbd3d1e43e4c9364e850042f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe47e9c3a860f22570fda15c57a800d') in 0.025996 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/tunnel_Normal.png
+  artifactKey: Guid(465456a6768ece54483dda7c5c5e7344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/tunnel_Normal.png using Guid(465456a6768ece54483dda7c5c5e7344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371784b98dc06a139fb1a2fba867e0ac') in 0.023921 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/tunnel_AlbedoTransparency.png
+  artifactKey: Guid(c252b39f4feec314097592cd7414a851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/tunnel_AlbedoTransparency.png using Guid(c252b39f4feec314097592cd7414a851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f7063f1e9e9ad9db2a19fb742a3eab') in 0.039800 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/white_transp_gradient.png
+  artifactKey: Guid(4efe4d99b3a144a2196f953fbe1b5c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/white_transp_gradient.png using Guid(4efe4d99b3a144a2196f953fbe1b5c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb021bb9f7d2e3b415c6d5a1f373b93c') in 0.025111 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Level2/MountainTrack2/Models/Textures/tree_03_summer.png
+  artifactKey: Guid(1a373866b1cf5ae4fb408b9c248d8ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level2/MountainTrack2/Models/Textures/tree_03_summer.png using Guid(1a373866b1cf5ae4fb408b9c248d8ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4dfe0712c2c775452b4e43798189e89') in 0.025635 seconds 
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
