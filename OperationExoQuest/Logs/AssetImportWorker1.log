@@ -15,7 +15,7 @@ C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49276
+50516
 Successfully changed project path to: C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
 C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [35280] Host "[IP] 192.168.100.110 [Port] 0 [Flags] 2 [Guid] 4110063891 [EditorId] 4110063891 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8264] Host "[IP] 192.168.100.110 [Port] 0 [Flags] 2 [Guid] 1031115107 [EditorId] 1031115107 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [35280] Host "[IP] 192.168.100.110 [Port] 0 [Flags] 2 [Guid] 4110063891 [EditorId] 4110063891 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8264] Host "[IP] 192.168.100.110 [Port] 0 [Flags] 2 [Guid] 1031115107 [EditorId] 1031115107 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 51.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 53.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.39f1 (fb3b7b32f191)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/Resources/UnitySubsystems
@@ -68,76 +68,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003306 seconds.
+Registered in 0.002635 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 48.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.495 seconds
+- Completed reload, in  0.457 seconds
 Domain Reload Profiling:
-	ReloadAssembly (495ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (457ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (352ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (314ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (84ms)
+			SetupTypeCache (74ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (207ms)
+			SetupLoadedEditorAssemblies (188ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
+				RefreshPlugins (48ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (105ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004150 seconds.
+Registered in 0.003313 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.222 seconds
+- Completed reload, in  1.219 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1223ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (1220ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1039ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1028ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
+			SetupTypeCache (232ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (699ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (664ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (617ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (581ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -145,13 +145,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (93.2 KB). Loaded Objects now: 3945.
-Memory consumption went from 139.4 MB to 139.3 MB.
-Total: 2.522400 ms (FindLiveObjects: 0.224800 ms CreateObjectMapping: 0.053900 ms MarkObjects: 2.137700 ms  DeleteObjects: 0.104300 ms)
+Unloading 25 unused Assets / (85.2 KB). Loaded Objects now: 3945.
+Memory consumption went from 139.5 MB to 139.4 MB.
+Total: 2.540100 ms (FindLiveObjects: 0.216500 ms CreateObjectMapping: 0.052100 ms MarkObjects: 2.176600 ms  DeleteObjects: 0.094100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,316 +168,60 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 31512.166081 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Models/Door.fbx
-  artifactKey: Guid(a71a624d47c0b954083ed51497329582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 2021.939549 seconds.
+  path: Assets/Tree_Textures
+  artifactKey: Guid(0af7d6938531efc4d80c160bd474003d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Models/Door.fbx using Guid(a71a624d47c0b954083ed51497329582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2b78401ea85a25c687553c69e884d6') in 0.317281 seconds 
-Number of asset objects unloaded after import = 24
+Start importing Assets/Tree_Textures using Guid(0af7d6938531efc4d80c160bd474003d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d52d1db7b00f379ef2f96fe49e3365') in 0.024525 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Models/Shelter_Bottom.fbx
-  artifactKey: Guid(f5f3d7344efc920468ef4c486e28b5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 322.802957 seconds.
+  path: Assets/Level1/RobotSphere/Assets/Models/Animation/robotSphere@anim_close.fbx
+  artifactKey: Guid(d7222f7175ac71943b44f3d2f8ae3453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Models/Shelter_Bottom.fbx using Guid(f5f3d7344efc920468ef4c486e28b5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3dd053d491624feb87987cba0536c29') in 0.167914 seconds 
-Number of asset objects unloaded after import = 11
+Start importing Assets/Level1/RobotSphere/Assets/Models/Animation/robotSphere@anim_close.fbx using Guid(d7222f7175ac71943b44f3d2f8ae3453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02edfe71d520f9180e1239c1cea805f4') in 0.448315 seconds 
+Number of asset objects unloaded after import = 268
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Models/Roof.fbx
-  artifactKey: Guid(1ed77f927a5dcfa499e4902d8e3165cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 748.555300 seconds.
+  path: Assets/Level1/DuNguyn/Loot Box/Prefabs/SM_LootBox_02.prefab
+  artifactKey: Guid(8852adadc5498dd49ba68bc0e6937f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Models/Roof.fbx using Guid(1ed77f927a5dcfa499e4902d8e3165cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4111abd70cc6112329edc544cad4120') in 0.207459 seconds 
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Models/Roof_Floor_Gate.fbx
-  artifactKey: Guid(b2e9ef0f0b3b76049b8c8c20af4cc797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Models/Roof_Floor_Gate.fbx using Guid(b2e9ef0f0b3b76049b8c8c20af4cc797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfe08bc7fee3c64d02a9259611805c8') in 0.074265 seconds 
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Models/Gallows.fbx
-  artifactKey: Guid(6051efb5bb9b6464fb416c1930908730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Models/Gallows.fbx using Guid(6051efb5bb9b6464fb416c1930908730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b322b8f25b515f290e9b2fc9498c93c0') in 0.092825 seconds 
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Models/Wagon.fbx
-  artifactKey: Guid(4d03124b627dc8841bc43d4c1e7646e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Models/Wagon.fbx using Guid(4d03124b627dc8841bc43d4c1e7646e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad93bb376a8280d21b0fb5354ffabe1') in 0.103888 seconds 
-Number of asset objects unloaded after import = 50
-========================================================================
-Received Import Request.
-  Time since last request: 14.990982 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-0_comp_light.exr
-  artifactKey: Guid(7c9db3671f4202d4d9df56a50c6379ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-0_comp_light.exr using Guid(7c9db3671f4202d4d9df56a50c6379ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4b20eda872cc62d1167738e58630a9') in 0.040010 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-4_comp_shadowmask.png
-  artifactKey: Guid(bf9caf9d8768885418a3551893b6ce00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-4_comp_shadowmask.png using Guid(bf9caf9d8768885418a3551893b6ce00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e83069e02ddb1f21bc2f4bb57b5743') in 0.031047 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-7_comp_dir.png
-  artifactKey: Guid(9d0bebb2ebe00bf42b0a2d01bd089bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-7_comp_dir.png using Guid(9d0bebb2ebe00bf42b0a2d01bd089bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71efad84f92a7ad2f03cc20905a2b49e') in 0.022234 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-10_comp_dir.png
-  artifactKey: Guid(932e273578da5e14d86b571af8b5cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-10_comp_dir.png using Guid(932e273578da5e14d86b571af8b5cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a93299d0d17a4d32e8cdb3c1f0f653f') in 0.026014 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-1_comp_light.exr
-  artifactKey: Guid(b658490fd7ed0ba41ae565574948e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-1_comp_light.exr using Guid(b658490fd7ed0ba41ae565574948e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f48b793b42144bbee9f0a3c596e00a') in 0.029056 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-1_comp_shadowmask.png
-  artifactKey: Guid(cf56df1986efa334a85de22fa75b38d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-1_comp_shadowmask.png using Guid(cf56df1986efa334a85de22fa75b38d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757f3a33e740ab9e2617272d4a94dd4e') in 0.023270 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-8_comp_shadowmask.png
-  artifactKey: Guid(6d24fcc902d068c46872f8496ae1581b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-8_comp_shadowmask.png using Guid(6d24fcc902d068c46872f8496ae1581b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82846d02a56a709c473af47942fe79e') in 0.024154 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-1_comp_dir.png
-  artifactKey: Guid(8bddc650b3cdd104cb3b4fec214f33bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-1_comp_dir.png using Guid(8bddc650b3cdd104cb3b4fec214f33bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ba07b97392ae24f7f48f6ab0bc754b') in 0.027579 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-9_comp_dir.png
-  artifactKey: Guid(5d6ca682e841d6a47a6f3fa1a4f40757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-9_comp_dir.png using Guid(5d6ca682e841d6a47a6f3fa1a4f40757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15115b1c20adbf06d23f121533219967') in 0.025997 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-4_comp_light.exr
-  artifactKey: Guid(1eac80bd508a837479d6af9bef8ac8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-4_comp_light.exr using Guid(1eac80bd508a837479d6af9bef8ac8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812bec3c71fb09d68a6fd72599ae74f3') in 0.023886 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-6_comp_dir.png
-  artifactKey: Guid(3cc7fd2358beb62469a3333530d198b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-6_comp_dir.png using Guid(3cc7fd2358beb62469a3333530d198b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9092a4bbf0c949c58bbb0bb25636ade4') in 0.023027 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-8_comp_light.exr
-  artifactKey: Guid(6de329023461c7a449507937bbc5c640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-8_comp_light.exr using Guid(6de329023461c7a449507937bbc5c640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcb9c1d3a332f5d12f019d9d8de152f') in 0.022394 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-0_comp_shadowmask.png
-  artifactKey: Guid(19312ece365f55044bf17ab80066d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-0_comp_shadowmask.png using Guid(19312ece365f55044bf17ab80066d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7474d06bad1f3a4e5c9a0ab51093c632') in 0.026760 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.447294 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-12_comp_shadowmask.png
-  artifactKey: Guid(72fa93bf193a75442b464c6bcfa22a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-12_comp_shadowmask.png using Guid(72fa93bf193a75442b464c6bcfa22a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611b2d37fd6b89a5d34b682dfb1f46ec') in 0.027879 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-15_comp_shadowmask.png
-  artifactKey: Guid(2da5c05b88be1cf44ad2776cedf3036a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-15_comp_shadowmask.png using Guid(2da5c05b88be1cf44ad2776cedf3036a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf92e5fdc1a4b96a7266c27b08b66c9e') in 0.021750 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-18_comp_light.exr
-  artifactKey: Guid(619c2845b22ba6544904280660113bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-18_comp_light.exr using Guid(619c2845b22ba6544904280660113bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290afa360c45d46aff44f7a2aef91aa0') in 0.024537 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-18_comp_shadowmask.png
-  artifactKey: Guid(5c6e2479bb4516d4dbfad6ce8be0cc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-18_comp_shadowmask.png using Guid(5c6e2479bb4516d4dbfad6ce8be0cc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a97dcfbd064d829eb3640a9f8cba344') in 0.022893 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-17_comp_light.exr
-  artifactKey: Guid(62e7e95bb8916a242b456241700a0b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-17_comp_light.exr using Guid(62e7e95bb8916a242b456241700a0b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a8a8f0aa0bf9735709359ea45e9d68') in 0.024319 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-20_comp_dir.png
-  artifactKey: Guid(855bdc67727e2b149b30f979a438a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-20_comp_dir.png using Guid(855bdc67727e2b149b30f979a438a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60ab9704cc9ed9312207af694501836') in 0.023916 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Level1/DuNguyn/Loot Box/Prefabs/SM_LootBox_02.prefab using Guid(8852adadc5498dd49ba68bc0e6937f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba84d4f8e5a37c9241367821030f577') in 0.039652 seconds 
+Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-20_comp_shadowmask.png
-  artifactKey: Guid(63c6b2a44c55d494c8567a707c161778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Level1/DuNguyn/Loot Box/Prefabs/SM_Plane.prefab
+  artifactKey: Guid(fae7ecc51d5d4eb458a9c5005e6a5ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-20_comp_shadowmask.png using Guid(63c6b2a44c55d494c8567a707c161778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22b493b9598b6616c6861402b314fff') in 0.026121 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-23_comp_shadowmask.png
-  artifactKey: Guid(0f557cc374683b049a4bf21fc89570ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-23_comp_shadowmask.png using Guid(0f557cc374683b049a4bf21fc89570ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d22f8bb24225b2ef501f67b1923dcfe') in 0.027515 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-14_comp_light.exr
-  artifactKey: Guid(d12c07a79dcab1f4c8e61f6e2505fe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-14_comp_light.exr using Guid(d12c07a79dcab1f4c8e61f6e2505fe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ebc13aaeae9f1e1aa4ed68270705c8') in 0.022512 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-18_comp_dir.png
-  artifactKey: Guid(c3dc3e28c17ed2742991f1980fccef21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-18_comp_dir.png using Guid(c3dc3e28c17ed2742991f1980fccef21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc168c0862a3a53ae69647df23645b87') in 0.022268 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-22_comp_shadowmask.png
-  artifactKey: Guid(fd1f80826f829254d9eafd2c38ce7586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-22_comp_shadowmask.png using Guid(fd1f80826f829254d9eafd2c38ce7586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a52701f7fbdd4acdf7b0da7dbde3773') in 0.026741 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-17_comp_shadowmask.png
-  artifactKey: Guid(fdedcb6e1a2357943992b767784770c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-17_comp_shadowmask.png using Guid(fdedcb6e1a2357943992b767784770c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a530e65ba1c5cc547e5df6c729d390dd') in 0.026322 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.051939 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-24_comp_shadowmask.png
-  artifactKey: Guid(a1de765e28839cf489d0626a4bf9ea5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-24_comp_shadowmask.png using Guid(a1de765e28839cf489d0626a4bf9ea5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548088a05e78c8febeebefd03ae016f8') in 0.023747 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-26_comp_dir.png
-  artifactKey: Guid(422aef6a6916f0e4dbb25825d4659d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-26_comp_dir.png using Guid(422aef6a6916f0e4dbb25825d4659d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0933b00f612a188264eab22423baeb') in 0.023774 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-27_comp_dir.png
-  artifactKey: Guid(dd8fb6795e741b742a3a5e7263851b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-27_comp_dir.png using Guid(dd8fb6795e741b742a3a5e7263851b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd639afecfb9c3f1f1a4acb107327332a') in 0.023612 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-30_comp_shadowmask.png
-  artifactKey: Guid(c51575725493eba4f8a66eefe6a3613d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-30_comp_shadowmask.png using Guid(c51575725493eba4f8a66eefe6a3613d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf482e88144697c539ddac87ade8b2a') in 0.022278 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Level1/DuNguyn/Loot Box/Prefabs/SM_Plane.prefab using Guid(fae7ecc51d5d4eb458a9c5005e6a5ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48c0a3a327a8404b6aa9815d0eb5a45') in 0.030346 seconds 
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-28_comp_shadowmask.png
-  artifactKey: Guid(7f689c8ff8305dc439596223b351157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Level1/DuNguyn/Loot Box/Prefabs/SM_SkyBox.prefab
+  artifactKey: Guid(cfab7e96ea8a67647a3e04c2eecf84a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-28_comp_shadowmask.png using Guid(7f689c8ff8305dc439596223b351157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8515cfd5402779372f591ede3ed03f69') in 0.029774 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Level1/DuNguyn/Loot Box/Prefabs/SM_SkyBox.prefab using Guid(cfab7e96ea8a67647a3e04c2eecf84a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea69110aba230d85ed49f5ed155ca51') in 0.024012 seconds 
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-31_comp_light.exr
-  artifactKey: Guid(1d59c5fb7072965469162710a3739f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 4.226278 seconds.
+  path: Assets/Level1/DuNguyn/Loot Box/Model/Loot box/SM_LootBox_03.fbx
+  artifactKey: Guid(e8df03bcfb938054dbf2a8b131ee9f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-31_comp_light.exr using Guid(1d59c5fb7072965469162710a3739f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8964b72a84b702bc9a28a2f680c121') in 0.023624 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Level1/DuNguyn/Loot Box/Model/Loot box/SM_LootBox_03.fbx using Guid(e8df03bcfb938054dbf2a8b131ee9f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185661ccce383e3e5b2b4c20c0dc83c6') in 0.044104 seconds 
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-29_comp_light.exr
-  artifactKey: Guid(93ad94f8e4f1ce24d8ecd90454df9152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 8.418030 seconds.
+  path: Assets/Level1/DuNguyn/Loot Box/Materials/LootBox_v03_M.mat
+  artifactKey: Guid(3138615484a842348beffc2f4bbc7c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-29_comp_light.exr using Guid(93ad94f8e4f1ce24d8ecd90454df9152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69da71af6354a2db5e157b4b9ed1337') in 0.023491 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-30_comp_dir.png
-  artifactKey: Guid(d3b33858f1133e44bb33286f66f296fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Medieval_Buildings_Modular/Show/Lightmap-30_comp_dir.png using Guid(d3b33858f1133e44bb33286f66f296fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1865db44aa712bf3f3aff51b5c0af882') in 0.024114 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Level1/DuNguyn/Loot Box/Materials/LootBox_v03_M.mat using Guid(3138615484a842348beffc2f4bbc7c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e951d856efdc15c82327b80801d891d5') in 0.043034 seconds 
+Number of asset objects unloaded after import = 6
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
