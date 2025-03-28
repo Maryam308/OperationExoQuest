@@ -15,7 +15,7 @@ C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50516
+59481
 Successfully changed project path to: C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
 C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19040] Host "[IP] 192.168.100.110 [Port] 0 [Flags] 2 [Guid] 3150316812 [EditorId] 3150316812 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23928] Host "[IP] 192.168.100.110 [Port] 0 [Flags] 2 [Guid] 2456314202 [EditorId] 2456314202 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19040] Host "[IP] 192.168.100.110 [Port] 0 [Flags] 2 [Guid] 3150316812 [EditorId] 3150316812 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23928] Host "[IP] 192.168.100.110 [Port] 0 [Flags] 2 [Guid] 2456314202 [EditorId] 2456314202 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 55.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 54.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.39f1 (fb3b7b32f191)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/Resources/UnitySubsystems
@@ -68,75 +68,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002622 seconds.
+Registered in 0.002938 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 90.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.458 seconds
+- Completed reload, in  0.553 seconds
 Domain Reload Profiling:
-	ReloadAssembly (459ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (553ms)
+		BeginReloadAssembly (74ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (320ms)
-			LoadAssemblies (69ms)
+		EndReloadAssembly (410ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (72ms)
+			SetupTypeCache (77ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (193ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (272ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (49ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (99ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003086 seconds.
+Registered in 0.003952 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.221 seconds
+- Completed reload, in  1.235 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1222ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (1236ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (1027ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1052ms)
 			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (216ms)
+			SetupTypeCache (203ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (674ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (699ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (592ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (615ms)
 				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
@@ -145,13 +145,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (108.5 KB). Loaded Objects now: 3945.
-Memory consumption went from 139.5 MB to 139.4 MB.
-Total: 3.387300 ms (FindLiveObjects: 0.231100 ms CreateObjectMapping: 0.056500 ms MarkObjects: 2.984100 ms  DeleteObjects: 0.114400 ms)
+Unloading 25 unused Assets / (108.7 KB). Loaded Objects now: 3947.
+Memory consumption went from 140.1 MB to 140.0 MB.
+Total: 2.607100 ms (FindLiveObjects: 0.232200 ms CreateObjectMapping: 0.085700 ms MarkObjects: 2.186000 ms  DeleteObjects: 0.102200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,165 +168,233 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2070.745106 seconds.
-  path: Assets/Level2/Scenes/MainScene_Level2.unity
-  artifactKey: Guid(7f6b6f470239e7e43b1b94fc8f5f3606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 15446.059478 seconds.
+  path: Assets/Level1/Prefabs/Crates.prefab
+  artifactKey: Guid(cf834e1d35149f845b0f1722e44545c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Scenes/MainScene_Level2.unity using Guid(7f6b6f470239e7e43b1b94fc8f5f3606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcee368ef26fc4b19b8afc3f547b2a5a') in 0.036011 seconds 
+Start importing Assets/Level1/Prefabs/Crates.prefab using Guid(cf834e1d35149f845b0f1722e44545c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38811911475eaf3f83d09f362d377de4') in 0.126994 seconds 
+Number of asset objects unloaded after import = 262
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Level1/Prefabs/Crate2.prefab
+  artifactKey: Guid(213049dd5434eb14f9b1a7341ffb342c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level1/Prefabs/Crate2.prefab using Guid(213049dd5434eb14f9b1a7341ffb342c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6cc41e923c3cc4fbda29c0ff30e2d1') in 0.050136 seconds 
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 465.728524 seconds.
+  path: Assets/Level1/Packages/Mine_Asset
+  artifactKey: Guid(aadb0011b7bd29a4db434a4aed497eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level1/Packages/Mine_Asset using Guid(aadb0011b7bd29a4db434a4aed497eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687f71709a9f72f202ecd4bbacec4228') in 0.004188 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 141.904190 seconds.
-  path: Assets/Level2/Tree.prefab
-  artifactKey: Guid(a43db7e6eb9183049801573b1621c2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 5261.204633 seconds.
+  path: Assets/Level1/Packages/Mine_Asset/Models/Props/Materials
+  artifactKey: Guid(d6689cc08289334408cd63f228e1653e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level2/Tree.prefab using Guid(a43db7e6eb9183049801573b1621c2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964e1f6ef72527ff8669cc04e2dd3e0d') in 0.252275 seconds 
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 131.822372 seconds.
-  path: Assets/Level1/RobotSphere/Assets/Models/Animation/robotSphere@anim_Idle_Loop_S.fbx
-  artifactKey: Guid(52ad55bee0260b64da664da407ed38b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/RobotSphere/Assets/Models/Animation/robotSphere@anim_Idle_Loop_S.fbx using Guid(52ad55bee0260b64da664da407ed38b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb83ad806197978690e0b650008a313') in 0.408968 seconds 
-Number of asset objects unloaded after import = 268
-========================================================================
-Received Import Request.
-  Time since last request: 569.833847 seconds.
-  path: Assets/Level1/sf-hallway/Materials
-  artifactKey: Guid(642b64c769632a44788b28f56091ed21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/sf-hallway/Materials using Guid(642b64c769632a44788b28f56091ed21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c50d560771784fd5327afb12df559b') in 0.022258 seconds 
+Start importing Assets/Level1/Packages/Mine_Asset/Models/Props/Materials using Guid(d6689cc08289334408cd63f228e1653e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9527cae9dedaf67f3203aa4bbcaaa7') in 0.003252 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 155.988139 seconds.
-  path: Assets/DuNguyn
-  artifactKey: Guid(c4cec0b205d704249bb985d884535353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.104599 seconds.
+  path: Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Crate_Albedo.png
+  artifactKey: Guid(9e668f9a82c8a2f4f8661b446eb52436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/DuNguyn using Guid(c4cec0b205d704249bb985d884535353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5f07a5b6432dbd7e6e82ae8995e2f3') in 0.018958 seconds 
+Start importing Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Crate_Albedo.png using Guid(9e668f9a82c8a2f4f8661b446eb52436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c2ed1f41ce6339cedaa643305acfed') in 0.061976 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Pickaxe_AlbedoTransparency.png
+  artifactKey: Guid(7a538c8d5a7f4a541b174a0f47232036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Pickaxe_AlbedoTransparency.png using Guid(7a538c8d5a7f4a541b174a0f47232036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb9eb306fc1116b91e2c8d405b5848f') in 0.037629 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Lantern_MetallicSmoothness.png
+  artifactKey: Guid(88e5fb4769525a34489e1e930260293b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Lantern_MetallicSmoothness.png using Guid(88e5fb4769525a34489e1e930260293b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe61376f1e9949dbe7149997494cf91') in 0.038546 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Pickaxe_Normal.png
+  artifactKey: Guid(763045be83aed584b83eae3d36c4bd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Pickaxe_Normal.png using Guid(763045be83aed584b83eae3d36c4bd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83009bf8d13e13162357bac148cdf7ee') in 0.041661 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Wood2_AlbedoSmoothness.png
+  artifactKey: Guid(ef4ab06c3be263a46843064d14a227c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Wood2_AlbedoSmoothness.png using Guid(ef4ab06c3be263a46843064d14a227c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8276d69c556a431d9ee5c91de5c75ebd') in 0.025473 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Lantern_Normal.png
+  artifactKey: Guid(445a79ad7f4611b4295ee26a76823223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Lantern_Normal.png using Guid(445a79ad7f4611b4295ee26a76823223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3b7ed173cdccaa56f9fdf10da740e6') in 0.038994 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Wood_Normal.png
+  artifactKey: Guid(dc9312e5e0354584eb0dae6dc4070bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Wood_Normal.png using Guid(dc9312e5e0354584eb0dae6dc4070bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0a446709c524ab52cb575a347e779d') in 0.027061 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Hatch_AlbedoTransparency.png
+  artifactKey: Guid(3816460de0843ac4a9be744667291b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Hatch_AlbedoTransparency.png using Guid(3816460de0843ac4a9be744667291b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5feb0aafd682490b129418e76322271a') in 0.033616 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 293.717961 seconds.
+  path: Assets/Level1/Scenes/Level1 - Map.unity
+  artifactKey: Guid(73aad95aa2eee5b44b42665ab0735030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Level1/Scenes/Level1 - Map.unity using Guid(73aad95aa2eee5b44b42665ab0735030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cd78b682dadf7e11c297b32cff82a4') in 0.020208 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 19.952713 seconds.
-  path: Assets/Level1/DuNguyn/Loot Box
-  artifactKey: Guid(de2f8b0dc42aa3c418f897ca178a4a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 30.105026 seconds.
+  path: Assets/Collectables_Asset/Bolt&Nut/nut1/Materials/unnamed.mat
+  artifactKey: Guid(06f3d5ce223b6684b823423076aeaefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/DuNguyn/Loot Box using Guid(de2f8b0dc42aa3c418f897ca178a4a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532be587eb0e86d9547944893c9fd409') in 0.020600 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/Collectables_Asset/Bolt&Nut/nut1/Materials/unnamed.mat using Guid(06f3d5ce223b6684b823423076aeaefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0be6df03d6e7b764d9040cfffb03190') in 0.047043 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 2.720610 seconds.
-  path: Assets/Level1/DuNguyn/Loot Box/Prefabs
-  artifactKey: Guid(6922371e0c551134b9615213700683bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 6.660197 seconds.
+  path: Assets/Collectables_Asset/Wrench/Setting/Materials/skybox.mat
+  artifactKey: Guid(2edde3f6ac03bbb478fd8b77ac76b8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/DuNguyn/Loot Box/Prefabs using Guid(6922371e0c551134b9615213700683bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3404aac2521650bbba9458e683d7cf82') in 0.021281 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/Collectables_Asset/Wrench/Setting/Materials/skybox.mat using Guid(2edde3f6ac03bbb478fd8b77ac76b8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34e3d8e9369c7c24f8a197437f32faf') in 0.067736 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.012025 seconds.
-  path: Assets/Level1/DuNguyn/Loot Box/Prefabs/SM_LootBox_01.prefab
-  artifactKey: Guid(c80b2a7025a63e145a0cd07596fce382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 3.208478 seconds.
+  path: Assets/Collectables_Asset/Metal Plates/Mesh/Metal_Plates.fbx
+  artifactKey: Guid(8a21beecbe9996346a001b84ad557fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/DuNguyn/Loot Box/Prefabs/SM_LootBox_01.prefab using Guid(c80b2a7025a63e145a0cd07596fce382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc96772be32d2ed7f00983ac74e9a0ff') in 0.040098 seconds 
-Number of asset objects unloaded after import = 12
+Start importing Assets/Collectables_Asset/Metal Plates/Mesh/Metal_Plates.fbx using Guid(8a21beecbe9996346a001b84ad557fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25757575d6ecd5f1572fbb1d68ffe418') in 0.069278 seconds 
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Collectables_Asset/Bolt&Nut/nut1/Materials/nut1_diffuse.mat
+  artifactKey: Guid(c3689ed04a6956b4eaebc3fc0fcc1f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Collectables_Asset/Bolt&Nut/nut1/Materials/nut1_diffuse.mat using Guid(c3689ed04a6956b4eaebc3fc0fcc1f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356c76386c2c59fe9152d516443d5ee0') in 0.034876 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/Level1/DuNguyn/Loot Box/Prefabs/SM_LootBox_03.prefab
-  artifactKey: Guid(6ede3ae630ff3364b9924645ab811973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Collectables_Asset/Bolt&Nut/nut1/Materials/NutM6__NutM6-diffuse.mat
+  artifactKey: Guid(6eb2b04def9f8be43880f21799636a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/DuNguyn/Loot Box/Prefabs/SM_LootBox_03.prefab using Guid(6ede3ae630ff3364b9924645ab811973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b443187af0096df11c8ffeadf56c03cd') in 0.038772 seconds 
-Number of asset objects unloaded after import = 13
+Start importing Assets/Collectables_Asset/Bolt&Nut/nut1/Materials/NutM6__NutM6-diffuse.mat using Guid(6eb2b04def9f8be43880f21799636a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b6038e1b772ec3a2019f284d287183') in 0.027128 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 4.242242 seconds.
-  path: Assets/Level1/DuNguyn/Loot Box/Model/Loot box/SM_LootBox_02.fbx
-  artifactKey: Guid(86b75d06a8e78ee43a4e32ff3a3a7c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.049725 seconds.
+  path: Assets/Level1/Packages/Wooden_Creates/CreateProp002/source/Crate/Source/Crate_Final.fbx
+  artifactKey: Guid(674e9479da1965e4b9a7666677e39006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/DuNguyn/Loot Box/Model/Loot box/SM_LootBox_02.fbx using Guid(86b75d06a8e78ee43a4e32ff3a3a7c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b235f5a538469b913af9f4983bb4463c') in 0.033211 seconds 
-Number of asset objects unloaded after import = 8
+Start importing Assets/Level1/Packages/Wooden_Creates/CreateProp002/source/Crate/Source/Crate_Final.fbx using Guid(674e9479da1965e4b9a7666677e39006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846c8d86f3e336d39723e65bf003e1ff') in 0.058732 seconds 
+Number of asset objects unloaded after import = 27
 ========================================================================
 Received Import Request.
-  Time since last request: 3.774094 seconds.
-  path: Assets/Level1/DuNguyn/Loot Box/Model/envi/SM_SkyBox.fbx
-  artifactKey: Guid(0fc9009092f13f4469c669eb20d33919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1.658675 seconds.
+  path: Assets/Level1/Packages/Wooden_Creates/CreatesSet/source/Crates/Crates.fbx
+  artifactKey: Guid(888db31bc640a7c4aaf0d15a49a2608d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/DuNguyn/Loot Box/Model/envi/SM_SkyBox.fbx using Guid(0fc9009092f13f4469c669eb20d33919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343795cc6d36be6d418c3577c7fc3058') in 0.024054 seconds 
-Number of asset objects unloaded after import = 8
+Start importing Assets/Level1/Packages/Wooden_Creates/CreatesSet/source/Crates/Crates.fbx using Guid(888db31bc640a7c4aaf0d15a49a2608d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33468caf1de7280624575b8dbe3902d9') in 0.283895 seconds 
+Number of asset objects unloaded after import = 147
 ========================================================================
 Received Import Request.
-  Time since last request: 4.629972 seconds.
-  path: Assets/Level1/DuNguyn/Loot Box/Materials/LootBox_v02_M.mat
-  artifactKey: Guid(77b4b7de9994bb241819c6701dc6d96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1767.319513 seconds.
+  path: Assets/Level1/Packages/Mine_Asset/Cart
+  artifactKey: Guid(93764edcc2b36dd499d33b425e2ad173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/DuNguyn/Loot Box/Materials/LootBox_v02_M.mat using Guid(77b4b7de9994bb241819c6701dc6d96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539a12994797c04a25012958a04d2962') in 0.039731 seconds 
-Number of asset objects unloaded after import = 5
+Start importing Assets/Level1/Packages/Mine_Asset/Cart using Guid(93764edcc2b36dd499d33b425e2ad173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced51770fdd4cad8bfef3fe92a7ea57b') in 0.018296 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Level1/DuNguyn/Loot Box/Materials/Plane_M.mat
-  artifactKey: Guid(9580bf064d05f4f42b8c9bbef7293612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 18.627658 seconds.
+  path: Assets/Level1/Packages/Mine_Asset/Cart/wooden-cart
+  artifactKey: Guid(42b2b82c17432a94b97c8e5a9d5927de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/DuNguyn/Loot Box/Materials/Plane_M.mat using Guid(9580bf064d05f4f42b8c9bbef7293612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa80a55fcd9831eabb272e268b9329a1') in 0.026884 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Level1/Packages/Mine_Asset/Cart/wooden-cart using Guid(42b2b82c17432a94b97c8e5a9d5927de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b172baa3b6e24ddac0fc8a81ddcd58') in 0.019015 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 227.847681 seconds.
-  path: Assets/Level1/DuNguyn/Loot Box/Texture/LootBox01_BaseColor.png
-  artifactKey: Guid(f9b26a8fd9c92bf4b88b7822b8bdfe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1.352072 seconds.
+  path: Assets/Level1/Packages/Mine_Asset/Cart/wooden-cart/source
+  artifactKey: Guid(db6d7c2125a16c54895b9e4007c08c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/DuNguyn/Loot Box/Texture/LootBox01_BaseColor.png using Guid(f9b26a8fd9c92bf4b88b7822b8bdfe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66587e6964ba12610e675707ea16012') in 0.053970 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Level1/Packages/Mine_Asset/Cart/wooden-cart/source using Guid(db6d7c2125a16c54895b9e4007c08c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2baf185a635b16846e6e50566890197e') in 0.004790 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Level1/DuNguyn/Loot Box/Texture/LootBox03_Metallic.png
-  artifactKey: Guid(fc5f815388813c045bd24d8bfea0468e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.068341 seconds.
+  path: Assets/Level1/Packages/Mine_Asset/Cart/wooden-cart/source/Wooden cart.fbx
+  artifactKey: Guid(c7589c98cabc1ac4693d85d59f150fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/DuNguyn/Loot Box/Texture/LootBox03_Metallic.png using Guid(fc5f815388813c045bd24d8bfea0468e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004b44d5436ab86da6dd34eb4cc09dd5') in 0.024495 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Level1/Packages/Mine_Asset/Cart/wooden-cart/source/Wooden cart.fbx using Guid(c7589c98cabc1ac4693d85d59f150fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f361e8090c23762b3e26e5c478711c0') in 0.119251 seconds 
+Number of asset objects unloaded after import = 77
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Level1/DuNguyn/Loot Box/Texture/LootBox02_AO.png
-  artifactKey: Guid(adf5193b15ee2bf46b0f03b2582d2a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 2370.815842 seconds.
+  path: Assets/Level1/Scenes/Level1 - Map.unity
+  artifactKey: Guid(73aad95aa2eee5b44b42665ab0735030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/DuNguyn/Loot Box/Texture/LootBox02_AO.png using Guid(adf5193b15ee2bf46b0f03b2582d2a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b9cafbfa56ea892b12459575ae7ea0') in 0.028119 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Level1/Scenes/Level1 - Map.unity using Guid(73aad95aa2eee5b44b42665ab0735030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6482c1eaf2003e4f180fecf0f19b69') in 0.023490 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Level1/DuNguyn/Loot Box/Texture/Plane.png
-  artifactKey: Guid(b55b246c0b2b62347992f891dfd06110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 2095.625163 seconds.
+  path: Assets/Collectables_Asset/Wrench/Models/double_open_end_wrench.FBX
+  artifactKey: Guid(2c08892d4c198804bb289fa26f120254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/DuNguyn/Loot Box/Texture/Plane.png using Guid(b55b246c0b2b62347992f891dfd06110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbb765a0e006d6a6c57be9b34b8cc4b') in 0.021143 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Collectables_Asset/Wrench/Models/double_open_end_wrench.FBX using Guid(2c08892d4c198804bb289fa26f120254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd296d1a868b5e76ee6eb736d3a4c7bd7') in 0.046512 seconds 
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Level1/DuNguyn/Loot Box/Texture/LootBox03_Emissive.png
-  artifactKey: Guid(93267bb65e6f3ae49bad78e832dbaa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1081.484488 seconds.
+  path: Assets/Level1/Packages/Mine_Asset/Mine_Portal
+  artifactKey: Guid(d8176bad35cab6448bb85778d039bbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/DuNguyn/Loot Box/Texture/LootBox03_Emissive.png using Guid(93267bb65e6f3ae49bad78e832dbaa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b455961e8204d6362dec439df0e8f5') in 0.025722 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Level1/Packages/Mine_Asset/Mine_Portal using Guid(d8176bad35cab6448bb85778d039bbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcc208dd6b96f4645266f26646d80c8') in 0.018568 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Level1/DuNguyn/Loot Box/Texture/LootBox02_BaseColor.png
-  artifactKey: Guid(7beff5e426d9f8c4fae87e50167e6bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 49.594630 seconds.
+  path: Assets/Level1/Packages/Mine_Asset/Mine_Portal/source
+  artifactKey: Guid(17f9b04d8d1b1504bb05bb64cc6da1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/DuNguyn/Loot Box/Texture/LootBox02_BaseColor.png using Guid(7beff5e426d9f8c4fae87e50167e6bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf36bff453e3e03527e6c3a45407e70a') in 0.023955 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Level1/Packages/Mine_Asset/Mine_Portal/source using Guid(17f9b04d8d1b1504bb05bb64cc6da1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084e7fa301e544154bce28ad107a7602') in 0.005756 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Level1/DuNguyn/Loot Box/Texture/LootBox02_Emissive.png
-  artifactKey: Guid(6a2078525e41a4a4dba57611506f32dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.025372 seconds.
+  path: Assets/Level1/Packages/Mine_Asset/Mine_Portal/source/portal.fbx
+  artifactKey: Guid(7c9beb70c5672c549a30320ad742130a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/DuNguyn/Loot Box/Texture/LootBox02_Emissive.png using Guid(6a2078525e41a4a4dba57611506f32dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600e7b314f9aca549991cef428dca02a') in 0.030199 seconds 
-Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Start importing Assets/Level1/Packages/Mine_Asset/Mine_Portal/source/portal.fbx using Guid(7c9beb70c5672c549a30320ad742130a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3009906f91ec73dfb7abe9a54ad9fa9a') in 0.164828 seconds 
+Number of asset objects unloaded after import = 83
