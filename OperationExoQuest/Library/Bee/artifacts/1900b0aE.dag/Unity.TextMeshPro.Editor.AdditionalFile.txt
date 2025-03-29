@@ -1,5 +1,1 @@
-<<<<<<< Updated upstream
-C:\Users\Fatima Ali\Desktop\OperationExoQuest\OperationExoQuest
-=======
-C:\Users\University\OneDrive\Desktop\OperationExoQuest\OperationExoQuest
->>>>>>> Stashed changes
+C:\Users\mario\source\repos\GameDev\OperationExoQuest\OperationExoQuest
