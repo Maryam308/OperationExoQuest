@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.39f1 (fb3b7b32f191) revision 16464763'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 32306 MB
+Built from '2021.3/staging' branch; Version is '2021.3.45f1 (0da89fac8e79) revision 895135'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16076 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.39f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.45f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
+C:/Users/Fatima Ali/Desktop/OperationExoQuest/OperationExoQuest
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59481
-Successfully changed project path to: C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
-C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
+60393
+Successfully changed project path to: C:/Users/Fatima Ali/Desktop/OperationExoQuest/OperationExoQuest
+C:/Users/Fatima Ali/Desktop/OperationExoQuest/OperationExoQuest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,118 +47,117 @@ C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31332] Host "[IP] 192.168.100.110 [Port] 0 [Flags] 2 [Guid] 2463600315 [EditorId] 2463600315 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [31564] Host "[IP] 192.168.222.1 [Port] 0 [Flags] 2 [Guid] 2056313653 [EditorId] 2056313653 [Version] 1048832 [Id] WindowsEditor(7,Fatima) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [31332] Host "[IP] 192.168.100.110 [Port] 0 [Flags] 2 [Guid] 2463600315 [EditorId] 2463600315 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QHJK815) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31564] Host "[IP] 192.168.222.1 [Port] 0 [Flags] 2 [Guid] 2056313653 [EditorId] 2056313653 [Version] 1048832 [Id] WindowsEditor(7,Fatima) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 56.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 129.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.39f1 (fb3b7b32f191)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/mario/source/repos/GameDev/OperationExoQuest/OperationExoQuest/Assets
+Initialize engine version: 2021.3.45f1 (0da89fac8e79)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Fatima Ali/Desktop/OperationExoQuest/OperationExoQuest/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Arc(TM) Graphics (ID=0x7d55)
-    Vendor:   Intel
-    VRAM:     18414 MB
-    Driver:   32.0.101.6129
+    Renderer: NVIDIA GeForce MX350 (ID=0x1c94)
+    Vendor:   NVIDIA
+    VRAM:     1979 MB
+    Driver:   30.0.14.7186
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002749 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006509 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 69.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 57.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.549 seconds
+- Completed reload, in  0.762 seconds
 Domain Reload Profiling:
-	ReloadAssembly (550ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (763ms)
+		BeginReloadAssembly (117ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (407ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (519ms)
+			LoadAssemblies (114ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (78ms)
+			SetupTypeCache (143ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (241ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (291ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (116ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003713 seconds.
+Registered in 0.006074 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.232 seconds
+- Completed reload, in  1.926 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1233ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (1927ms)
+		BeginReloadAssembly (220ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1046ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1552ms)
+			LoadAssemblies (168ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (702ms)
+			SetupTypeCache (408ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (920ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (620ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (792ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3457 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (93.2 KB). Loaded Objects now: 3947.
-Memory consumption went from 140.0 MB to 139.9 MB.
-Total: 2.726400 ms (FindLiveObjects: 0.228400 ms CreateObjectMapping: 0.055200 ms MarkObjects: 2.326400 ms  DeleteObjects: 0.115100 ms)
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (46.4 KB). Loaded Objects now: 3539.
+Memory consumption went from 106.7 MB to 106.7 MB.
+Total: 4.153600 ms (FindLiveObjects: 0.402100 ms CreateObjectMapping: 0.129100 ms MarkObjects: 3.477600 ms  DeleteObjects: 0.138800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -168,85 +167,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 15446.059439 seconds.
-  path: Assets/Level1/Prefabs/basic_sci-fi_crate.prefab
-  artifactKey: Guid(b16067724ab038b46965842787a1b9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 10182737.015966 seconds.
+  path: Assets/MainMenu
+  artifactKey: Guid(fc6a14a771f1805408a7706288c6e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/Prefabs/basic_sci-fi_crate.prefab using Guid(b16067724ab038b46965842787a1b9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a773155cd9c0eb64b83588006158ea52') in 0.144474 seconds 
-Number of asset objects unloaded after import = 45
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Level1/Prefabs/SciFiCrate_1.prefab
-  artifactKey: Guid(7fa62a12580ce504387290a24b62a4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/Prefabs/SciFiCrate_1.prefab using Guid(7fa62a12580ce504387290a24b62a4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1fed5beb6959ad713f29f9335bea56') in 0.027017 seconds 
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 5727.056864 seconds.
-  path: Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Crate_MetallicSmoothness.png
-  artifactKey: Guid(ddb02255a3a5ed84088274dcd93ba7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Crate_MetallicSmoothness.png using Guid(ddb02255a3a5ed84088274dcd93ba7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79650f6790e15120f2941bbdaf38beb') in 0.061163 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Pickaxe_MetallicSmoothness.png
-  artifactKey: Guid(a74b75507896cf140b9295ae5b7d0e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Pickaxe_MetallicSmoothness.png using Guid(a74b75507896cf140b9295ae5b7d0e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791e4e5feb94ededeb739b0e59d752ac') in 0.035537 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Hatch_MetallicSmoothness.png
-  artifactKey: Guid(0329d1112e44daf46be2986ab88d476d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Hatch_MetallicSmoothness.png using Guid(0329d1112e44daf46be2986ab88d476d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d532b242da030a853d5f3dea686f7e') in 0.039462 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Wood2_Normal.png
-  artifactKey: Guid(3eec72132b6d483499da6736bd73d328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Wood2_Normal.png using Guid(3eec72132b6d483499da6736bd73d328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88783862806407dbfeab2b081065ca8e') in 0.026292 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Wood_AlbedoSmoothness.png
-  artifactKey: Guid(b48461d00395344418cf1b5acbabb39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Wood_AlbedoSmoothness.png using Guid(b48461d00395344418cf1b5acbabb39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83f6f7d41e41dfa42dd83ffa841c9cf') in 0.029534 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Crate_Normal.png
-  artifactKey: Guid(436ae5b1cf16d424e94468b3800b9551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Crate_Normal.png using Guid(436ae5b1cf16d424e94468b3800b9551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57f89411aa94c534767b6459b22de97') in 0.038311 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Hatch_Normal.png
-  artifactKey: Guid(3b99dd3fa1a67cd42833c4c5db1d08a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Hatch_Normal.png using Guid(3b99dd3fa1a67cd42833c4c5db1d08a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eeb6f566b1abd43632b976f3348ddf9') in 0.041093 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Lantern_AlbedoTransparency.png
-  artifactKey: Guid(f2b8b87b82de71446aee8bfe22b05b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Level1/Packages/Mine_Asset/Models/Props/Materials/Lantern_AlbedoTransparency.png using Guid(f2b8b87b82de71446aee8bfe22b05b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482a0847ef639cdec22d2c99417790e9') in 0.031964 seconds 
-Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Start importing Assets/MainMenu using Guid(fc6a14a771f1805408a7706288c6e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff4450e6cbefc3680d641b0e131acd6') in 0.039571 seconds 
+Number of asset objects unloaded after import = 0
